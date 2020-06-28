@@ -38,11 +38,11 @@
 			<!-- Menu -->
 			<div class="nav-items">
 				<ul>
-					<li><a href="<?= base_url('data'); ?>"> Beranda</a></li>
+					<li><a href="<?= base_url(''); ?>"> Beranda</a></li>
 					<li><a href="<?= base_url('data/indonesia'); ?>"> Data Persebaran</a></li>
 					<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
 					<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
-					<li class="btn">Kontak</li>
+					<li class="btn">Data Persebaran</li>
 				</ul>
 			</div>
 			<div class="mobile-nav">
@@ -50,11 +50,11 @@
 				<div id="mySidenav" class="sidemenu">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<ul>
-						<li><a href="<?= base_url('data'); ?>"> Beranda</a></li>
+						<li><a href="<?= base_url(''); ?>"> Beranda</a></li>
 						<li><a href="<?= base_url('data/indonesia'); ?>"> Data Persebaran</a></li>
 						<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
 						<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
-						<li class="btn">Kontak</li>
+						<li class="btn">Data Persebaran</li>
 					</ul>
 				</div>
 			</div>
