@@ -5,8 +5,10 @@ class Data extends CI_Controller
 {
 	function index()
 	{
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Indonesia';
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Indonesia',
+		);
 		$this->load->view('landing_page', $data);
 	}
 
@@ -14,10 +16,12 @@ class Data extends CI_Controller
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia';
 		$readAPI = file_get_contents($API);
-		$data['indo'] = json_decode($readAPI, true);
 
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Indonesia';
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Indonesia',
+			'indo' => json_decode($readAPI, true)
+		);
 
 		$this->load->view('Templates/header', $data);
 		$this->load->view('Ind/indo', $data);
@@ -28,10 +32,12 @@ class Data extends CI_Controller
 	{
 		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
 		$readAPI = file_get_contents($API);
-		$data['provinsi'] = json_decode($readAPI, true);
 
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Provinsi';
+		$data = array(
+			'provinsi' => json_decode($readAPI, true),
+			'title' => 'Covid Tracker |',
+			'data' => ' Provinsi'
+		);
 
 		$this->load->view('Templates/header', $data);
 		$this->load->view('Ind/indo-prov', $data);
@@ -42,10 +48,12 @@ class Data extends CI_Controller
 	{
 		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
 		$readAPI = file_get_contents($API);
-		$data['provinsi'] = json_decode($readAPI, true);
 
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Provinsi';
+		$data = array(
+			'provinsi' => json_decode($readAPI, true),
+			'title' => 'Covid Tracker |',
+			'data' => ' Provinsi'
+		);
 
 		$this->load->view('Templates/header', $data);
 		$this->load->view('Ind/peta', $data);
@@ -56,10 +64,12 @@ class Data extends CI_Controller
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
 		$readAPI = file_get_contents($API);
-		$data['world'] = json_decode($readAPI, true);
 
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Dunia';
+		$data = array(
+			'world' => json_decode($readAPI, true),
+			'title' => 'Covid Tracker |',
+			'data' => ' Dunia'
+		);
 
 		$this->load->view('Templates/header', $data);
 		$this->load->view('Ind/dunia', $data);
@@ -72,11 +82,12 @@ class Data extends CI_Controller
 		$readAPI = file_get_contents($API);
 		$data['count'] = json_decode($readAPI, true);
 
-		$data['num'] = count($data['count']);
-
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Negara';
-
+		$data = array(
+			'count' => json_decode($readAPI, true),
+			'num' => count($data['count']),
+			'title' => 'Covid Tracker |',
+			'data' => ' Negara'
+		);
 		$this->load->view('Templates/header', $data);
 		$this->load->view('Ind/wrd-count', $data);
 		$this->load->view('Templates/footer');
@@ -86,14 +97,20 @@ class Data extends CI_Controller
 	}
 	function informasi()
 	{
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Pusat Informasi';
+
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Provinsi'
+		);
 		$this->load->view('informasi/base', $data);
 	}
 	function panduan()
 	{
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Panduan';
+
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Provinsi'
+		);
 		$this->load->view('panduan/base', $data);
 	}
 
