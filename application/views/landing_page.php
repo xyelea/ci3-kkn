@@ -38,11 +38,10 @@
 			<!-- Menu -->
 			<div class="nav-items">
 				<ul>
-					<li><a href="<?= base_url(''); ?>"> Beranda</a></li>
-					<li></li>
+					<li><a href="<?= base_url(''); ?>">Beranda</a></li>
 					<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
 					<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
-					<li class="btn"><a href="<?= base_url('data/indonesia'); ?>"> Data Persebaran</a></li>
+					<li class="btn"><a href="<?= base_url('data/indonesia'); ?>" style="color: #035755;"> Data Persebaran</a></li>
 				</ul>
 			</div>
 			<div class="mobile-nav">
