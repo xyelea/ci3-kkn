@@ -29,11 +29,13 @@
 
 <body>
 	<div class="head">
+		<!-- Logo -->
 		<nav>
 			<div class="navbrand">
 				<img src="<?= base_url('assets'); ?>/img/logo.svg" alt="" />
 				<span>Covid Tracker | Indonesia</span>
 			</div>
+			<!-- Menu -->
 			<div class="nav-items">
 				<ul>
 					<li><a href="<?= base_url('data'); ?>"> Beranda</a></li>
@@ -43,19 +45,21 @@
 					<li class="btn">Kontak</li>
 				</ul>
 			</div>
-			<div class="mobilemenu">
+			<div class="mobile-nav">
 				<span onclick="openNav()">&#9776;</span>
 				<div id="mySidenav" class="sidemenu">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<ul>
-						<li><a class="" href="#overview">Overview</a></li>
-						<li><a class="" href="#contagion">Contagion</a></li>
-						<li><a class="" href="#symptoms">Symptoms</a></li>
-						<li><a class="" href="#prevention">Prevention</a></li>
-						<li><a class="" href="#contact" class="butmenu">Contact</a></li>
+						<li><a href="<?= base_url('data'); ?>"> Beranda</a></li>
+						<li><a href="<?= base_url('data/indonesia'); ?>"> Data Persebaran</a></li>
+						<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
+						<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
+						<li class="btn">Kontak</li>
 					</ul>
 				</div>
+			</div>
 		</nav>
+		<!-- banner -->
 		<div class="head-page">
 			<div class="text">
 				<h4>Awas ! Covid-19 !</h4>
@@ -66,6 +70,7 @@
 				</p>
 				<button>Pertanyaan yang sering diajukan..</button>
 			</div>
+			<!-- gambar -->
 			<div class="illustration">
 				<img class="img-header" src="<?= base_url('assets'); ?>/img/illustration 01.svg" alt="">
 			</div>

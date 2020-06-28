@@ -145,9 +145,22 @@ nav {
 .illustration img {
 	width: 90%;
 }
-.mobilemenu {
+/* Responsive Nav */
+.mobile-nav {
 	display: none;
+	margin-left: auto;
 }
+.mobile-nav span {
+	color: var(--primary-color);
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.mobile-nav {
+	display: block;
+	text-align: right;
+}
+
 .sidemenu {
 	height: 100%;
 	width: 0;
@@ -161,4 +174,38 @@ nav {
 
 .sidemenu a {
 	color: #fff;
+}
+
+.sidemenu ul {
+	text-align: center;
+	padding: 0;
+	list-style: none;
+}
+
+.sidemenu ul li {
+	padding: 8px;
+	font-size: 1.5rem;
+}
+
+a.closebtn {
+	text-align: right;
+	font-size: 2rem;
+	margin: 20px;
+}
+
+@media screen and (max-width: 993px) {
+	.nav-items {
+		display: none;
+	}
+	.mobile-nav {
+		display: block;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.nav-items ul li {
+		padding: 10px 0;
+		margin: 0 1rem;
+	}
 }
