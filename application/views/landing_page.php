@@ -41,7 +41,7 @@
 					<li><a href="<?= base_url(''); ?>">Beranda</a></li>
 					<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
 					<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
-					<li class="btn"><a href="<?= base_url('data/indonesia'); ?>" style="color: #035755;"> Data Persebaran</a></li>
+					<li class="btn"><a href="<?= base_url('data/indonesia'); ?>" style="color: #035755;"> Data Persebaran <i class="fas fa-biohazard"></i></a></li>
 				</ul>
 			</div>
 			<div class="mobile-nav">
@@ -61,8 +61,8 @@
 		<!-- banner -->
 		<div class="head-page">
 			<div class="text">
-				<h4>Awas ! Covid-19 !</h4>
-				<h1>Jaga Jarak Sosial dan Kebersihan</h1>
+				<h4>Awas ! Covid-19 ! <i class="fas fa-viruses"></i></h4>
+				<h1>Jaga Jarak Sosial dan Gunakan Masker! <i class="fas fa-head-side-mask"></i></h1>
 				<p>
 					Belum ada Obat Spesifik untuk mencegah maupun mengobati corona virus
 					disease (COVID-19).

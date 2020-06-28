@@ -189,7 +189,7 @@ a.closebtn {
 	margin: 20px;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1040px) {
 	.nav-items {
 		display: none;
 	}
@@ -199,6 +199,47 @@ a.closebtn {
 	}
 	.display-none {
 		display: none;
+	}
+
+	.text {
+		padding-left: 50px;
+		line-height: 2rem;
+		align-items: center;
+	}
+
+	.text h4 {
+		font-weight: 800;
+		color: #fb4c47;
+		font-size: 19px;
+	}
+	.text h1 {
+		font-weight: bolder;
+		color: #035755;
+		font-size: 19px;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+		line-height: 3rem;
+	}
+	.text p {
+		font-weight: 500;
+		font-size: 15px;
+		color: #333;
+		margin: 5px 0;
+		text-align: justify;
+	}
+	.text button {
+		border: none;
+		background-color: #fb4c47;
+		color: #fff;
+		padding: 15px 30px;
+		font-size: 13px;
+		margin-top: 30px;
+		cursor: pointer;
+		border-radius: 100px;
+	}
+
+	button {
+		width: 270px;
 	}
 }
 
