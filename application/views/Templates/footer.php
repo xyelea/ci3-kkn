@@ -1,9 +1,10 @@
 <footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright font-weight-bold text-center my-auto">
-            <span>18753034 &copy; Irfan Al-Fath</span>
-        </div>
-    </div>
+	<div class="container my-auto">
+		<div class="copyright font-weight-bold text-center my-auto">
+			Made With <i class="far fa-heart"></i> By Satria Efriyadi <strong> &copy; 2020 <a href=""></a>.</strong> All rights reserved.
+		</div>
+
+	</div>
 </footer>
 
 </div>
