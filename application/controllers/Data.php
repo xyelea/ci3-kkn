@@ -5,7 +5,9 @@ class Data extends CI_Controller
 {
 	function index()
 	{
-		$this->load->view('landing_page');
+		$data['title'] = 'Covid Tracker |';
+		$data['data'] = ' Indonesia';
+		$this->load->view('landing_page', $data);
 	}
 
 	public function indonesia()
