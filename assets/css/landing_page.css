@@ -148,17 +148,13 @@ nav {
 /* Responsive Nav */
 .mobile-nav {
 	display: none;
-	margin-left: auto;
+
+	margin-left: 65%;
 }
 .mobile-nav span {
 	color: var(--primary-color);
 	cursor: pointer;
 	font-size: 26px;
-}
-
-.mobile-nav {
-	display: block;
-	text-align: right;
 }
 
 .sidemenu {
@@ -200,6 +196,9 @@ a.closebtn {
 	.mobile-nav {
 		display: block;
 		text-align: right;
+	}
+	.display-none {
+		display: none;
 	}
 }
 

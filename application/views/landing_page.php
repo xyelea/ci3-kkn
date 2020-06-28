@@ -46,7 +46,7 @@
 				</ul>
 			</div>
 			<div class="mobile-nav">
-				<span onclick="openNav()">&#9776;</span>
+				<span class="" onclick="openNav()">&#9776;</span>
 				<div id="mySidenav" class="sidemenu">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<ul>

@@ -102,7 +102,7 @@ class Data extends CI_Controller
 		$data['indo'] = json_decode($readAPI, true);
 
 		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Indonesia';
+		$data['data'] = ' Testing Halaman';
 
 		$this->load->view('beta', $data);
 	}
