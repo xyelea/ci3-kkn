@@ -100,13 +100,6 @@
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan_pencegahan') ?>" class="nav-link">
-										<i class="fas fa-shield-virus nav-icon"></i>
-										<p>Pencegahan</p>
-									</a>
-								</li>
-
-								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_etika') ?>" class="nav-link">
 										<i class="fas fa-head-side-cough nav-icon"></i>
 										<p>Etika Batuk dan Bersin</p>

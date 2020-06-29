@@ -79,18 +79,6 @@
 										<p>Covid-19</p>
 									</a>
 								</li>
-								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_gejala') ?>" class="nav-link">
-										<i class="fas fa-virus-slash nav-icon"></i>
-										<p>Gejala </p>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_pencegahan') ?>" class="nav-link">
-										<i class="fas fa-user-nurse nav-icon"></i>
-										<p>Pencegahan</p>
-									</a>
-								</li>
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/informasi_new_normal') ?>" class="nav-link">
@@ -106,13 +94,23 @@
 									</a>
 								</li>
 							</ul>
-
+						<li class="nav-item">
+							<a href="<?= base_url('data/informasi_gejala') ?>" class="nav-link">
+								<i class="fas fa-virus-slash nav-icon"></i>
+								<p>Gejala </p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?= base_url('data/informasi_pencegahan') ?>" class="nav-link">
+								<i class="fas fa-user-nurse nav-icon"></i>
+								<p>Pencegahan</p>
+							</a>
+						</li>
 						<li class="nav-item">
 							<a href="pages/widgets.html" class="nav-link">
 								<i class="nav-icon fas fa-th"></i>
 								<p>
 									Call Center
-									<span class="right badge badge-danger">New</span>
 								</p>
 							</a>
 						</li>
@@ -122,7 +120,6 @@
 								<i class="nav-icon fas fa-th"></i>
 								<p>
 									Rumah Sakit Rujukan
-									<span class="right badge badge-danger">New</span>
 								</p>
 							</a>
 						</li>
@@ -132,7 +129,6 @@
 								<i class="nav-icon fas fa-th"></i>
 								<p>
 									Infografis
-									<span class="right badge badge-danger">New</span>
 								</p>
 							</a>
 						</li>

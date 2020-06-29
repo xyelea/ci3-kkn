@@ -199,16 +199,6 @@ class Data extends CI_Controller
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
-	function panduan_pencegahan()
-	{
-		$data = array(
-			'title' => 'Covid Tracker |',
-			'isi' => 'panduan/pencegahan',
-			'data' => ' Panduan Pencegahan'
-		);
-		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
-	}
-
 	// Route Peta
 	function peta()
 	{
