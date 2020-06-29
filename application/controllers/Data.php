@@ -145,11 +145,20 @@ class Data extends CI_Controller
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
-	function panduan_new_normal()
+	function panduan_masker()
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/masker',
+			'data' => ' Panduan Menggunakan Masker'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_new_normal()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/new_normal',
 			'data' => ' Panduan'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
@@ -158,7 +167,7 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'isi' => 'panduan/masker',
+			'isi' => 'panduan/etika',
 			'data' => ' Panduan'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
