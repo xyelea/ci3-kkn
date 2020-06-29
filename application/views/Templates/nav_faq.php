@@ -65,9 +65,9 @@
 						<!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 						<li class="nav-item ">
-							<a href="#" class="nav-link active">
-								<i class="fas fa-virus-slash nav-icon"></i>
-								<p>FAQ</p>
+							<a href="<?= base_url('data/faq') ?>" class="nav-link active">
+								<i class="fas fa-question nav-icon"></i>
+								<p>Pertanyaan Umum</p>
 							</a>
 						</li>
 				</nav>
