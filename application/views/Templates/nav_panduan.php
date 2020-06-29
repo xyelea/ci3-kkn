@@ -80,7 +80,7 @@
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_membuang_masker') ?>" class="nav-link">
 										<i class="fas fa-virus-slash nav-icon"></i>
 										<p>Membuang Masker </p>
 									</a>

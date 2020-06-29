@@ -177,7 +177,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/membuang_masker',
-			'data' => ' Panduan'
+			'data' => ' Panduan Membuang Masker'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
@@ -186,7 +186,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/ibu_hamil',
-			'data' => ' Panduan'
+			'data' => ' Panduan Bagi Ibu Hamil dan Menyusui'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
@@ -195,7 +195,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/jika_mengalami_gejala',
-			'data' => ' Panduan'
+			'data' => ' Panduan Jika Khawatir Terjangkit Corona'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
@@ -204,7 +204,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/pencegahan',
-			'data' => ' Panduan'
+			'data' => ' Panduan Pencegahan'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
