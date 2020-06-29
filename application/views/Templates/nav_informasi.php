@@ -68,7 +68,7 @@
 							<a href="" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
 								<p>
-									Pusat Informasi
+									Kamus Covid-19
 									<i class="right fas fa-angle-left"></i>
 								</p>
 							</a>
@@ -105,8 +105,37 @@
 										<p>Pasien Dan Lainnya</p>
 									</a>
 								</li>
-
 							</ul>
+
+						<li class="nav-item">
+							<a href="pages/widgets.html" class="nav-link">
+								<i class="nav-icon fas fa-th"></i>
+								<p>
+									Call Center
+									<span class="right badge badge-danger">New</span>
+								</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="pages/widgets.html" class="nav-link">
+								<i class="nav-icon fas fa-th"></i>
+								<p>
+									Rumah Sakit Rujukan
+									<span class="right badge badge-danger">New</span>
+								</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="pages/widgets.html" class="nav-link">
+								<i class="nav-icon fas fa-th"></i>
+								<p>
+									Infografis
+									<span class="right badge badge-danger">New</span>
+								</p>
+							</a>
+						</li>
 				</nav>
 				<!-- /.sidebar-menu -->
 			</div>
