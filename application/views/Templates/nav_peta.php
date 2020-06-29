@@ -68,7 +68,7 @@
 							<a href="#" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
 								<p>
-									Daftar panduan
+									Daftar Peta
 									<i class="right fas fa-angle-left"></i>
 								</p>
 							</a>
@@ -76,53 +76,17 @@
 								<li class="nav-item">
 									<a href="#" class="nav-link">
 										<i class="fas fa-head-side-mask nav-icon"></i>
-										<p>Masker</p>
+										<p>Dashboard</p>
 									</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">
 										<i class="fas fa-virus-slash nav-icon"></i>
-										<p>Membuang Masker </p>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-user-nurse nav-icon"></i>
-										<p>Ibu Hamil</p>
+										<p>Dunia </p>
 									</a>
 								</li>
 
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-head-side-virus nav-icon"></i>
-										<p>Jika Mengalami Gejala</p>
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-shield-virus nav-icon"></i>
-										<p>Pencegahan</p>
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-head-side-cough nav-icon"></i>
-										<p>Etika Batuk dan Bersin</p>
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="fas fa-shield-virus nav-icon"></i>
-										<p>New Normal</p>
-									</a>
-								</li>
 							</ul>
-						</li>
-
-					</ul>
 				</nav>
 				<!-- /.sidebar-menu -->
 			</div>

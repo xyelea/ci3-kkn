@@ -68,7 +68,7 @@
 							<a href="#" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
 								<p>
-									Daftar panduan
+									Kamus Covid-19
 									<i class="right fas fa-angle-left"></i>
 								</p>
 							</a>
