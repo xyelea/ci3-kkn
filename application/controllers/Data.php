@@ -91,9 +91,9 @@ class Data extends CI_Controller
 	// Route Informasi
 	function informasi()
 	{
-
 		$data = array(
 			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/',
 			'data' => ' Pusat Informasi'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
@@ -104,6 +104,61 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/masker',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_new_normal()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/masker',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_etika()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/masker',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_membuang_masker()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/membuang_masker',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_ibu_hamil()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/ibu_hamil',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_jika_mengalami_gejala()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/jika_mengalami_gejala',
+			'data' => ' Panduan'
+		);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+	function panduan_pencegahan()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'panduan/pencegahan',
 			'data' => ' Panduan'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
