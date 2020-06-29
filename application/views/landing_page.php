@@ -46,7 +46,7 @@
 			</div>
 			<div class="mobile-nav">
 				<span class="" onclick="openNav()">&#9776;</span>
-				<div id="mySidenav" class="sidemenu">
+				<div id="mySidenav" class="sidemenu" style="background-color: #333;">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<ul>
 						<!-- <li><a href="<?= base_url(''); ?>"> Beranda</a></li> -->

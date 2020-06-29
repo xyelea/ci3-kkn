@@ -3,7 +3,6 @@
 :root {
 	--primary-color: #fb4c47;
 	--title-color: #035755;
-	--side-color: #333;
 }
 
 * {
@@ -153,6 +152,7 @@ nav {
 	margin-left: 65%;
 }
 .mobile-nav span {
+	color: var(--primary-color);
 	cursor: pointer;
 	font-size: 26px;
 }
@@ -164,6 +164,7 @@ nav {
 	z-index: 1;
 	top: 0;
 	right: 0;
+	background-color: #fb4c47;
 	transition: 0.5s;
 }
 
