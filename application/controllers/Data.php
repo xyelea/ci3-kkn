@@ -93,7 +93,43 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'isi' => 'informasi/',
+			'isi' => 'informasi/covid',
+			'data' => ' Pusat Informasi'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+	function informasi_gejala()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/gejala',
+			'data' => ' Pusat Informasi'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+	function informasi_pencegahan()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/pencegahan',
+			'data' => ' Pusat Informasi'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+	function informasi_new_normal()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/new_normal',
+			'data' => ' Pusat Informasi'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+	function informasi_pasien()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/pasien',
 			'data' => ' Pusat Informasi'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
