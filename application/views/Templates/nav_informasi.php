@@ -6,7 +6,7 @@
 			<!-- Left navbar links -->
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+					<a class="nav-link" data-widget="pushmenu" href="<?= base_url('data') ?>" role="button"><i class="fas fa-bars"></i></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
 					<a href="<?= base_url('data') ?>" class="nav-link">Beranda</a>
@@ -53,7 +53,7 @@
 				<!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
 
 					<div class="info">
-						<a href="#" class="d-block ml-5">
+						<a href="<?= base_url('data') ?>" class="d-block ml-5">
 							<i class="brand-image fas fa-book-medical ml-2 elevation-3 img-circle"></i> Panduan
 						</a>
 					</div>
@@ -65,42 +65,42 @@
 						<!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 						<li class="nav-item has-treeview menu-open">
-							<a href="#" class="nav-link active">
+							<a href="" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
 								<p>
-									Kamus Covid-19
+									Pusat Informasi
 									<i class="right fas fa-angle-left"></i>
 								</p>
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/informasi') ?>" class="nav-link">
 										<i class="fas fa-head-side-mask nav-icon"></i>
 										<p>Covid-19</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/informasi_gejala') ?>" class="nav-link">
 										<i class="fas fa-virus-slash nav-icon"></i>
 										<p>Gejala </p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/informasi_pencegahan') ?>" class="nav-link">
 										<i class="fas fa-user-nurse nav-icon"></i>
 										<p>Pencegahan</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/informasi_new_normal') ?>" class="nav-link">
 										<i class="fas fa-head-side-virus nav-icon"></i>
 										<p>New Normal</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/informasi_pasien') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
 										<p>Pasien Dan Lainnya</p>
 									</a>

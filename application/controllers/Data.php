@@ -103,7 +103,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/gejala',
-			'data' => ' Pusat Informasi'
+			'data' => ' Informasi Gejala COVID-19'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
@@ -112,7 +112,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/pencegahan',
-			'data' => ' Pusat Informasi'
+			'data' => ' Informasi Pencegahan COVID-19'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
@@ -121,7 +121,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/new_normal',
-			'data' => ' Pusat Informasi'
+			'data' => ' Informasi tentang New Normal'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
@@ -130,7 +130,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/pasien',
-			'data' => ' Pusat Informasi'
+			'data' => ' Informasi tentang Pasien'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
