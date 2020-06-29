@@ -114,15 +114,18 @@ class Data extends CI_Controller
 		$this->load->view('panduan/base', $data);
 	}
 
-	function beta()
+	function testing()
 	{
-		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia';
+		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
 		$readAPI = file_get_contents($API);
-		$data['indo'] = json_decode($readAPI, true);
 
-		$data['title'] = 'Covid Tracker |';
-		$data['data'] = ' Testing Halaman';
+		$data = array(
+			'world' => json_decode($readAPI, true),
+			'title' => 'Covid Tracker |',
+			'isi' => 'beta',
+			'data' => ' Dunia'
+		);
 
-		$this->load->view('beta', $data);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
 }
