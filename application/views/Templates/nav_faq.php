@@ -66,7 +66,7 @@
                with font-awesome or any other icon font library -->
 						<li class="nav-item ">
 							<a href="<?= base_url('data/faq') ?>" class="nav-link active">
-								<i class="fas fa-question nav-icon"></i>
+								<i class="fas fa-question-circle nav-icon"></i>
 								<p>Pertanyaan Umum</p>
 							</a>
 						</li>
