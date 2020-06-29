@@ -159,7 +159,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/new_normal',
-			'data' => ' Panduan'
+			'data' => ' Panduan menjalani New Normal'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
@@ -168,7 +168,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/etika',
-			'data' => ' Panduan'
+			'data' => ' Panduan Etika ketika Bersin dan Batuk'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
@@ -190,12 +190,12 @@ class Data extends CI_Controller
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}
-	function panduan_jika_mengalami_gejala()
+	function panduan_gejala()
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'panduan/jika_mengalami_gejala',
-			'data' => ' Panduan Jika Khawatir Terjangkit Corona'
+			'data' => ' Panduan Jika Mengalami gejala Virus COVID-19'
 		);
 		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
 	}

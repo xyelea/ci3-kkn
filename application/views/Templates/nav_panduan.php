@@ -86,35 +86,35 @@
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_ibu_hamil') ?>" class="nav-link">
 										<i class="fas fa-user-nurse nav-icon"></i>
 										<p>Ibu Hamil</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_gejala') ?>" class="nav-link">
 										<i class="fas fa-head-side-virus nav-icon"></i>
 										<p>Jika Mengalami Gejala</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_pencegahan') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
 										<p>Pencegahan</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_etika') ?>" class="nav-link">
 										<i class="fas fa-head-side-cough nav-icon"></i>
 										<p>Etika Batuk dan Bersin</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan') ?>" class="nav-link">
+									<a href="<?= base_url('data/panduan_new_normal') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
 										<p>New Normal</p>
 									</a>
