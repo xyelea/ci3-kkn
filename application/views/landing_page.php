@@ -33,7 +33,7 @@
 		<nav>
 			<div class="navbrand">
 				<img src="<?= base_url('assets'); ?>/img/logo.svg" alt="" />
-				<span>Covid Tracker | Indonesia</span>
+				<span class=""><?= $title . $data;	 ?></span>
 			</div>
 			<!-- Menu -->
 			<div class="nav-items">
