@@ -3,6 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Data extends CI_Controller
 {
+
 	function index()
 	{
 		$data = array(
@@ -44,22 +45,6 @@ class Data extends CI_Controller
 		$this->load->view('Templates/footer');
 	}
 
-	public function peta()
-	{
-		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
-		$readAPI = file_get_contents($API);
-
-		$data = array(
-			'provinsi' => json_decode($readAPI, true),
-			'title' => 'Covid Tracker |',
-			'data' => ' Provinsi'
-		);
-
-		$this->load->view('Templates/header', $data);
-		$this->load->view('Ind/peta', $data);
-		$this->load->view('Templates/footer');
-	}
-
 	public function dunia()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
@@ -92,26 +77,46 @@ class Data extends CI_Controller
 		$this->load->view('Ind/wrd-count', $data);
 		$this->load->view('Templates/footer');
 	}
+
+	// Route Faq
 	function faq()
 	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Faq'
+		);
+		$this->load->view('Templates/wrapper_faq', $data, FALSE);
 	}
+
+	// Route Informasi
 	function informasi()
 	{
 
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'data' => ' Provinsi'
+			'data' => ' Pusat Informasi'
 		);
-		$this->load->view('informasi/base', $data);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
+
+	// Route Panduan
 	function panduan()
 	{
-
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'data' => ' Provinsi'
+			'data' => ' Panduan'
 		);
-		$this->load->view('panduan/base', $data);
+		$this->load->view('Templates/wrapper_panduan', $data, FALSE);
+	}
+
+	// Route Peta
+	function peta()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
 	}
 
 	function testing()
