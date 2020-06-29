@@ -67,7 +67,8 @@
 					Belum ada Obat Spesifik untuk mencegah maupun mengobati corona virus
 					disease (COVID-19).
 				</p>
-				<button>Pertanyaan yang sering diajukan..</button>
+				<form action="<?= base_url('data/faq'); ?>">
+					<button type="submit"> Pertanyaan yang sering diajukan..</button></form>
 			</div>
 			<!-- gambar -->
 			<div class="illustration">

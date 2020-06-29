@@ -83,6 +83,7 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
+			'isi' => 'faq/faq',
 			'data' => ' Faq'
 		);
 		$this->load->view('Templates/wrapper_faq', $data, FALSE);
