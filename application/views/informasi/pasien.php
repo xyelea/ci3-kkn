@@ -3,7 +3,7 @@
   	<!-- Content Header (Page header) -->
   	<div class="content-header">
   		<div class="container-fluid">
-  			<div class="row mb-2">
+  			<div class="row mb-0">
   				<div class="col-sm-6">
 
   				</div><!-- /.col -->
@@ -15,9 +15,21 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
+  			<div class="card card-danger">
+  				<div class="card-header">
+  					<h3 class="card-title"><i class="fas fa-shield-virus"></i> Pasien Dan istilah Lainnya </h3>
+  				</div>
+  				<!-- /.card-header -->
+  				<div class="card-body">
+  					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
 
-  		</div><!-- /.container-fluid -->
-  	</div>
-  	<!-- /.content -->
+  					<!-- Accordion tutup -->
+  				</div>
+
+  			</div>
+  			<!-- /.card-body -->
+  		</div>
+  	</div><!-- /.container-fluid -->
   </div>
+  <!-- /.content -->
   <!-- /.content-wrapper -->
