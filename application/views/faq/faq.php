@@ -42,6 +42,57 @@
   								</div>
   							</div>
   						</div>
+
+  						<div class="card card-danger">
+  							<div class="card-header">
+  								<h4 class="card-title">
+  									<a data-toggle="collapse" data-parent="#accordion" href="#dua">
+  										Seberapa Bahaya Dampak Covid-19 ?
+  									</a>
+  								</h4>
+  							</div>
+  							<div id="dua" class="panel-collapse collapse in">
+  								<div class="card-body">
+  									Seperti penyakit pernapasan lainnya, COVID-19 dapat menyebabkan gejala ringan termasuk pilek, sakit tenggorokan, batuk, dan demam. Sekitar 80% kasus dapat pulih tanpa perlu perawatan khusus. Sekitar 1 dari setiap 6 orang mungkin akan menderita sakit yang parah, seperti disertai pneumonia atau kesulitan bernafas, yang biasanya muncul secara bertahap.
+
+  									Walaupun angka kematian penyakit ini masih rendah (sekitar 3%), namun bagi orang yang berusia lanjut, dan orang-orang dengan kondisi medis yang sudah ada sebelumnya, lebih rentan untuk menjadi sakit parah. Melihat perkembangan hingga saat ini, lebih dari 50% kasus konfirmasi telah dinyatakan membaik, dan angka kesembuhan akan terus meningkat.
+
+  								</div>
+  							</div>
+  						</div>
+  						<div class="card card-danger">
+  							<div class="card-header">
+  								<h4 class="card-title">
+  									<a data-toggle="collapse" data-parent="#accordion" href="#tiga">
+  										Berapa lama virus ini bertahan di permukaan benda?
+  									</a>
+  								</h4>
+  							</div>
+  							<div id="tiga" class="panel-collapse collapse in">
+  								<div class="card-body">
+  									Sampai saat ini belum diketahui dengan pasti berapa lama COVID-19 mampu bertahan di permukaan suatu benda, meskipun studi awal menunjukkan bahwa COVID-19 dapat bertahan hingga beberapa jam, tergantung jenis permukaan, suhu, atau kelembaban lingkungan. Namun disinfektan sederhana dapat membunuh virus tersebut sehingga tidak mungkin menginfeksi orang lagi. Dan membiasakan cuci tangan dengan air dan sabun, atau hand-rub berbasis alkohol, serta hindari menyentuh mata, mulut atau hidung (segitiga wajah) lebih efektif melindungi diri Anda.
+
+  								</div>
+  							</div>
+  						</div>
+  						<div class="card card-danger">
+  							<div class="card-header">
+  								<h4 class="card-title">
+  									<a data-toggle="collapse" data-parent="#accordion" href="#lima">
+  										Siapa saja yang berisiko terinfeksi COVID-19?
+  									</a>
+  								</h4>
+  							</div>
+  							<div id="lima" class="panel-collapse collapse in">
+  								<div class="card-body">
+  									Orang yang tinggal atau bepergian di daerah di mana virus COVID-19 bersirkulasi sangat mungkin berisiko terinfeksi. Mereka yang terinfeksi adalah orang-orang yang dalam 14 hari sebelum muncul gejala melakukan perjalanan dari negara terjangkit, atau yang kontak erat, seperti anggota keluarga, rekan kerja atau tenaga medis yang merawat pasien sebelum mereka tahu pasien tersebut terinfeksi COVID-19.
+
+  									Petugas kesehatan yang merawat pasien yang terinfeksi COVID-19 berisiko lebih tinggi dan harus konsisten melindungi diri mereka sendiri dengan prosedur pencegahan dan pengendalian infeksi yang tepat.
+
+  								</div>
+  							</div>
+  						</div>
+
   						<div class="card card-danger">
   							<div class="card-header ">
   								<h4 class="card-title">
@@ -52,7 +103,23 @@
   							</div>
   							<div id="collapseTwo" class="panel-collapse collapse">
   								<div class="card-body">
-  									People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment. More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
+  									Gejala akan berbeda pada setiap orang, kebanyakan orang yang terinfeksi akan mengalami gejala ringan maupun sedang tanpa dirawat di rumah sakit.<br><br>
+  									Gejala Ringan : <br>
+  									1. Demam<br>
+  									2. Kelelahan<br>
+  									3. Batuk Kering<br><br>
+  									Gejala Menengah :<br>
+  									1.<br>
+  									2.<br>
+  									3.<br>
+  									4.<br>
+  									5.<br>
+  									6.<br>
+  									7.<br><br>
+  									Gejala Serius : <br>
+  									1.<br>
+  									2.<br>
+  									3.<br>
   								</div>
   							</div>
   						</div>
@@ -66,47 +133,15 @@
   							</div>
   							<div id="collapseThree" class="panel-collapse collapse">
   								<div class="card-body">
-  									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-  									3
-  									wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-  									laborum
-  									eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-  									nulla
-  									assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-  									nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-  									beer
-  									farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-  									labore sustainable VHS.
+  									1. Rajinlah mencuci tangan dengan sabun atau pembersih tangan berbasis alkohol minimal 60%.<br>
+  									2. Menjaga kebersihan barang yang sering kita sentuh.<br>
+  									3. Perkuat daya tahan tubuh.<br>
+  									4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, masker bedah (medis) untuk pekerja medis.
   								</div>
   							</div>
   							<!-- Card Danger -->
   						</div>
 
-  						<div class="card card-danger">
-  							<div class="card-header">
-  								<h4 class="card-title">
-  									<a data-toggle="collapse" data-parent="#accordion" href="#empat">
-  										bagaimana Cara Pencegahannya ?
-  									</a>
-  								</h4>
-  							</div>
-  							<div id="empat" class="panel-collapse collapse">
-  								<div class="card-body">
-  									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-  									3
-  									wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-  									laborum
-  									eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-  									nulla
-  									assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-  									nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-  									beer
-  									farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-  									labore sustainable VHS.
-  								</div>
-  							</div>
-  							<!-- Card Danger -->
-  						</div>
   						<!-- Accordion tutup -->
   					</div>
 

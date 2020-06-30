@@ -17,12 +17,12 @@
   		<div class="container-fluid">
   			<div class="card card-danger">
   				<div class="card-header">
-  					<h3 class="card-title"><i class="fas fa-globe"></i> Peta Persebaran COVID-19 di Dunia </h3>
+  					<h3 class="card-title"><i class="fas fa-globe"></i> Peta Rasio Kerentanan Penduduk Indonesia terhadap COVID-19 </h3>
   				</div>
   				<!-- /.card-header -->
   				<div class="card-body">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="//arcgis.com/apps/Embed/index.html?webmap=14aa9e5660cf42b5b4b546dec6ceec7c&extent=77.3846,11.535,163.5174,52.8632&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+  					<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="https://gis.dukcapil.kemendagri.go.id/arcgis/apps/MapSeries/index.html?appid=c98c430a86c64d5889106b2fe3a2909f"></iframe>
   					<!-- Accordion tutup -->
   				</div>
 

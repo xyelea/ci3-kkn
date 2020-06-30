@@ -74,13 +74,13 @@
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/peta') ?>" class="nav-link">
 										<i class="fas fa-globe-europe nav-icon"></i>
 										<p>Dunia</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/peta_db_id') ?>" class="nav-link">
 										<i class="fas fa-globe-asia nav-icon"></i>
 										<p>Indonesia</p>
 									</a>
@@ -96,21 +96,27 @@
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/peta_dunia') ?>" class="nav-link">
 										<i class="fas fa-globe-europe nav-icon"></i>
 										<p>Dunia</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/peta_tenaga_medis') ?>" class="nav-link">
 										<i class="fas fa-globe-asia nav-icon"></i>
-										<p>Indonesia</p>
+										<p>Tenaga Medis</p>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">
+									<a href="<?= base_url('data/peta_rentan') ?>" class="nav-link">
+										<i class="fas fa-globe-asia nav-icon"></i>
+										<p>Rasio Kerentanan</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="<?= base_url('data/peta_rs') ?>" class="nav-link">
 										<i class="fas fa-book-medical nav-icon"></i>
-										<p>Rumah Sakit Rujukan</p>
+										<p>Fasilitas Kesehatan</p>
 									</a>
 								</li>
 							</ul>

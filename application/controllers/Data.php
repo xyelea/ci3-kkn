@@ -228,11 +228,20 @@ class Data extends CI_Controller
 		);
 		$this->load->view('Templates/wrapper_peta', $data, FALSE);
 	}
-	function peta_indonesia()
+	function peta_tenaga_medis()
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'isi' => 'peta/indonesia',
+			'isi' => 'peta/tenaga_medis',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
+	}
+	function peta_rentan()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'peta/rentan',
 			'data' => ' Peta Persebaran'
 		);
 		$this->load->view('Templates/wrapper_peta', $data, FALSE);
