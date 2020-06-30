@@ -75,7 +75,7 @@
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
 									<a href="<?= base_url('data/informasi') ?>" class="nav-link">
-										<i class="fas fa-head-side-mask nav-icon"></i>
+										<i class="fas fa-virus nav-icon"></i>
 										<p>Covid-19</p>
 									</a>
 								</li>
