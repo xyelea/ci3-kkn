@@ -76,13 +76,19 @@
 								<li class="nav-item">
 									<a href="#" class="nav-link">
 										<i class="fas fa-head-side-mask nav-icon"></i>
-										<p>Dashboard</p>
+										<p>Dunia</p>
 									</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">
 										<i class="fas fa-virus-slash nav-icon"></i>
-										<p>Dunia </p>
+										<p>Indonesia</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">
+										<i class="fas fa-virus-slash nav-icon"></i>
+										<p>Rumah Sakit Rujukan</p>
 									</a>
 								</li>
 
