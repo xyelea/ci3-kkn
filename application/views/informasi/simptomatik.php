@@ -17,12 +17,12 @@
   		<div class="container-fluid">
   			<div class="card card-danger">
   				<div class="card-header">
-  					<h3 class="card-title"><i class="fas fa-globe"></i> Simptomatik </h3>
+  					<h3 class="card-title"><i class="fas fa-head-side-cough"></i> Simptomatik </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body text-justify">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-
+  					<strong>Simptomatik</strong> artinya bergejala. Jadi, bila seseorang terinfeksi virus ini, akan timbul gejala yang umumnya diawali dengan demam dan rasa tidak enak badan, diikuti batuk kering (dalam waktu seminggu) yang jika memberat bisa diikuti sesak napas.
   					<!-- Accordion tutup -->
   				</div>
 
