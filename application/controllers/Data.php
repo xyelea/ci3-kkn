@@ -95,25 +95,25 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/covid',
-			'data' => ' Pusat Informasi'
+			'data' => ' Covid-19'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
-	function informasi_gejala()
+	function informasi_simptomatik()
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'isi' => 'informasi/gejala',
-			'data' => ' Informasi Gejala COVID-19'
+			'isi' => 'informasi/simptomatik',
+			'data' => ' simptomatik'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
-	function informasi_pencegahan()
+	function informasi_asimptomatik()
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
-			'isi' => 'informasi/pencegahan',
-			'data' => ' Informasi Pencegahan COVID-19'
+			'isi' => 'informasi/asimptomatik',
+			'data' => ' Asimptomatik'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
@@ -122,7 +122,7 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/new_normal',
-			'data' => ' Informasi tentang New Normal'
+			'data' => ' New Normal'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}
@@ -131,7 +131,36 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'isi' => 'informasi/pasien',
-			'data' => ' Informasi tentang Pasien'
+			'data' => ' Pasien'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+
+	function informasi_call_center()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/call',
+			'data' => '  Call Center'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+	function informasi_psbb()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/psbb',
+			'data' => ' PSBB'
+		);
+		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+	}
+
+	function informasi_infografis()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'informasi/infografis',
+			'data' => ' Infografis'
 		);
 		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
 	}

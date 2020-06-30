@@ -14,7 +14,7 @@
 
   	<!-- Main content -->
   	<div class="content">
-  		<div class="container-fluid">
+  		<div class="container-fluid text-justify">
   			<div class="card card-danger">
   				<div class="card-header">
   					<h3 class="card-title">Pertanyaan yang sering di ajukan</h3>
@@ -133,10 +133,10 @@
   							</div>
   							<div id="collapseThree" class="panel-collapse collapse">
   								<div class="card-body">
-  									1. Rajinlah mencuci tangan dengan sabun atau pembersih tangan berbasis alkohol minimal 60%.<br>
-  									2. Menjaga kebersihan barang yang sering kita sentuh.<br>
-  									3. Perkuat daya tahan tubuh.<br>
-  									4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, masker bedah (medis) untuk pekerja medis.
+  									1. Rajinlah mencuci tangan dengan sabun atau pembersih tangan berbasis alkohol minimal 60%. <i class="fas fa-hands-wash"> </i><br>
+  									2. Menjaga kebersihan barang yang sering kita sentuh. <i class="fas fa-soap"></i><br>
+  									3. Perkuat daya tahan tubuh. <i class="fas fa-shield-virus"></i><br>
+  									4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;masker bedah (medis) untuk pekerja medis. <i class="fas fa-head-side-mask"></i>
   								</div>
   							</div>
   							<!-- Card Danger -->

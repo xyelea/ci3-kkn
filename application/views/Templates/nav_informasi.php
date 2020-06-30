@@ -81,34 +81,46 @@
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_new_normal') ?>" class="nav-link">
-										<i class="fas fa-head-side-virus nav-icon"></i>
-										<p>New Normal</p>
+									<a href="<?= base_url('data/informasi_simptomatik') ?>" class="nav-link">
+										<i class="fas fa-head-side-cough nav-icon"></i>
+										<p>Simptomatik</p>
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a href="<?= base_url('data/informasi_asimptomatik') ?>" class="nav-link">
+										<i class="fas fa-head-side-cough-slash nav-icon"></i>
+										<p>Asimptomatik</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/informasi_pasien') ?>" class="nav-link">
-										<i class="fas fa-shield-virus nav-icon"></i>
+										<i class="fas fa-user-nurse nav-icon"></i>
 										<p>Pasien Dan Lainnya</p>
 									</a>
 								</li>
+
+								<li class="nav-item">
+									<a href="<?= base_url('data/informasi_psbb') ?>" class="nav-link">
+										<i class="fas fa-shield-virus nav-icon"></i>
+										<p>PSBB</p>
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a href="<?= base_url('data/informasi_new_normal') ?>" class="nav-link">
+										<i class="fas fa-head-side-virus nav-icon"></i>
+										<p>New Normal</p>
+									</a>
+								</li>
+								<!-- End Dropdown Menu -->
 							</ul>
+
+
 						<li class="nav-item">
-							<a href="<?= base_url('data/informasi_gejala') ?>" class="nav-link">
-								<i class="fas fa-virus-slash nav-icon"></i>
-								<p>Gejala </p>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="<?= base_url('data/informasi_pencegahan') ?>" class="nav-link">
-								<i class="fas fa-user-nurse nav-icon"></i>
-								<p>Pencegahan</p>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="pages/widgets.html" class="nav-link">
-								<i class="nav-icon fas fa-th"></i>
+							<a href="<?= base_url('data/informasi_call_center') ?>" class="nav-link">
+								<i class="nav-icon fas fa-phone-alt"></i>
 								<p>
 									Call Center
 								</p>
@@ -116,8 +128,8 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="pages/widgets.html" class="nav-link">
-								<i class="nav-icon fas fa-th"></i>
+							<a href="<?= base_url('data/informasi_infografis') ?>" class="nav-link">
+								<i class="nav-icon fas fa-qrcode"></i>
 								<p>
 									Infografis
 								</p>
