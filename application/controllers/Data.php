@@ -205,10 +205,30 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
+			'isi' => 'peta/dunia',
 			'data' => ' Peta Persebaran'
 		);
 		$this->load->view('Templates/wrapper_peta', $data, FALSE);
 	}
+	function peta_indonesia()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'peta/indonesia',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
+	}
+	function peta_rs()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'peta/rs',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
+	}
+
 
 	function testing()
 	{
