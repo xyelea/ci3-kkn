@@ -22,7 +22,7 @@
   				<!-- /.card-header -->
   				<div class="card-body">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					<iframe width="100%" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="https://www.arcgis.com/apps/opsdashboard/index.html#/8caa437261f2440093ce28e33e3ba6dd"></iframe>
+  					<iframe width="100%" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
   					<!-- Accordion tutup -->
   				</div>
 

@@ -205,6 +205,24 @@ class Data extends CI_Controller
 	{
 		$data = array(
 			'title' => 'Covid Tracker |',
+			'isi' => 'peta/db_dunia',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
+	}
+	function peta_db_id()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
+			'isi' => 'peta/db_id',
+			'data' => ' Peta Persebaran'
+		);
+		$this->load->view('Templates/wrapper_peta', $data, FALSE);
+	}
+	function peta_dunia()
+	{
+		$data = array(
+			'title' => 'Covid Tracker |',
 			'isi' => 'peta/dunia',
 			'data' => ' Peta Persebaran'
 		);
