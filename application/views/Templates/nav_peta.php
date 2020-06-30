@@ -75,19 +75,19 @@
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
 									<a href="#" class="nav-link">
-										<i class="fas fa-head-side-mask nav-icon"></i>
+										<i class="fas fa-globe-europe nav-icon"></i>
 										<p>Dunia</p>
 									</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">
-										<i class="fas fa-virus-slash nav-icon"></i>
+										<i class="fas fa-globe-asia nav-icon"></i>
 										<p>Indonesia</p>
 									</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">
-										<i class="fas fa-virus-slash nav-icon"></i>
+										<i class="fas fa-book-medical nav-icon"></i>
 										<p>Rumah Sakit Rujukan</p>
 									</a>
 								</li>
