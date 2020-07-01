@@ -129,9 +129,9 @@
 
 						<li class="nav-item">
 							<a href="<?= base_url('data/informasi_infografis') ?>" class="nav-link">
-								<i class="nav-icon fas fa-qrcode"></i>
+								<i class="nav-icon fas fa-wifi"></i>
 								<p>
-									Infografis
+									Website Resmi
 								</p>
 							</a>
 						</li>
