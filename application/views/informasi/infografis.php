@@ -23,6 +23,255 @@
   				<div class="card-body">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
 
+  					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
+  					<div class="row">
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://covid19.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Gugus tugas COVID-19 ( Nasional)
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="col-sm-4 ml-auto">
+  							<div class="card card-danger elevation-3">
+  								<div class="card-header">
+  									<h4 class="card-title">
+  										<a href="https://corona.jakarta.go.id/" target="_blank"><i class="fas fa-globe-asia"></i> Jakarta
+  										</a>
+  									</h4>
+  								</div>
+  							</div>
+  						</div>
+
+
+
+  					</div>
+  					<!-- Accordion tutup -->
+
   					<!-- Accordion tutup -->
   				</div>
 

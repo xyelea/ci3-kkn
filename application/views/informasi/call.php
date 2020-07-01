@@ -22,6 +22,49 @@
   				<!-- /.card-header -->
   				<div class="card-body">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
+  					<div class="card card-danger">
+  						<div class="card-header">
+  							<h4 class="card-title">
+  								<a href="https://covid19.go.id/daftar-rumah-sakit-rujukan" target="_blank"> <i class="fas fa-clinic-medical"></i> Rumah Sakit Rujukan
+  								</a>
+  							</h4>
+  						</div>
+  					</div>
+
+  					<div id="accordion">
+  						<div class="card card-danger">
+  							<div class="card-header">
+  								<h4 class="card-title">
+  									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+  										Gugus Tugas Covid-19
+  									</a>
+  								</h4>
+  							</div>
+  							<div id="collapseOne" class="panel-collapse collapse in">
+  								<div class="card-body">
+  									119
+
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="card card-danger">
+  							<div class="card-header">
+  								<h4 class="card-title">
+  									<a data-toggle="collapse" data-parent="#accordion" href="#jkt">
+  										Jakarta Tanggap Covid-19
+  									</a>
+  								</h4>
+  							</div>
+  							<div id="jkt" class="panel-collapse collapse in">
+  								<div class="card-body">
+  									<i class="fas fa-phone-alt"></i> 112<br>
+  									<i class="fab fa-whatsapp"></i> 081-112-112-112<br>
+  									<i class="fab fa-whatsapp"></i> 081-388-376-955
+  								</div>
+  							</div>
+  						</div>
+  					</div>
 
   					<!-- Accordion tutup -->
   				</div>
