@@ -17,7 +17,7 @@
   		<div class="container-fluid">
   			<div class="card card-danger">
   				<div class="card-header">
-  					<h3 class="card-title"><i class="fas fa-globe"></i> Infografis </h3>
+  					<h3 class="card-title"><i class="fas fa-wifi"></i> Website Resmi </h3>
   				</div>
   				<!-- /.card-header -->
   				<div class="card-body">
