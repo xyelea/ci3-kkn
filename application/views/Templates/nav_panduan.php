@@ -109,7 +109,7 @@
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_new_normal') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
-										<p>New Normal</p>
+										<p>Adaptasi Kebiasaan Baru</p>
 									</a>
 								</li>
 							</ul>
