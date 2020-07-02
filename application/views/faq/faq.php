@@ -33,11 +33,11 @@
   							</div>
   							<div id="collapseOne" class="panel-collapse collapse in">
   								<div class="card-body">
-  									Virus korona adalah sebutan untuk jenis virus yang dapat menyebabkan penyakit pada hewan dan manusia. Disebut korona karena bentuknya yang seperti mahkota (korona ~ crown = mahkota dalam bahasa Latin).
+  									Virus korona adalah sebutan untuk jenis virus yang dapat menyebabkan penyakit pada hewan dan manusia. Disebut korona karena bentuknya yang seperti <strong> mahkota (korona ~ crown = mahkota dalam bahasa Latin)</strong>.
 
   									Beberapa contoh penyakit pada manusia yang disebabkan oleh virus korona antara lain MERS (Sindrom Pernafasan Timur Tengah) dan SARS (Sindrom Pernafasan Akut Parah).
 
-  									Virus korona terbaru yang ditemukan di Wuhan, Tiongkok, pada bulan Desember 2019 diberi nama SARS Coronavirus 2 (SARS-CoV-2) dan menyebabkan penyakit Coronavirus Disease 2019 (COVID-19)
+  									Virus korona terbaru yang ditemukan di Wuhan, Tiongkok, pada bulan <strong> Desember 2019 </strong> diberi nama SARS Coronavirus 2 (SARS-CoV-2) dan menyebabkan penyakit <strong> Coronavirus Disease 2019 (COVID-19)</strong>
 
   								</div>
   							</div>
@@ -101,28 +101,49 @@
   									</a>
   								</h4>
   							</div>
+
   							<div id="collapseTwo" class="panel-collapse collapse">
+  								<!-- demam -->
   								<div class="card-body">
-  									Gejala akan berbeda pada setiap orang, kebanyakan orang yang terinfeksi akan mengalami gejala ringan maupun sedang tanpa dirawat di rumah sakit.<br><br>
-  									Gejala Ringan : <br>
-  									1. Demam<br>
-  									2. Kelelahan<br>
-  									3. Batuk Kering<br><br>
-  									Gejala Menengah :<br>
-  									1.<br>
-  									2.<br>
-  									3.<br>
-  									4.<br>
-  									5.<br>
-  									6.<br>
-  									7.<br><br>
-  									Gejala Serius : <br>
-  									1.<br>
-  									2.<br>
-  									3.<br>
+  									<div class="row">
+  										<div class="col-sm-4 ml-0">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Demam</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/demam.png" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+
+  										<div class="col-sm-4 ml-auto">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Batuk</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/batuk.png" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+  										<div class="col-sm-4 ml-auto">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Lelah</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/lelah.png" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+  										<!-- row -->
+  									</div>
+
   								</div>
   							</div>
   						</div>
+
   						<div class="card card-danger">
   							<div class="card-header">
   								<h4 class="card-title">
@@ -133,10 +154,44 @@
   							</div>
   							<div id="collapseThree" class="panel-collapse collapse">
   								<div class="card-body">
-  									1. Rajinlah mencuci tangan dengan sabun atau pembersih tangan berbasis alkohol minimal 60%. <i class="fas fa-hands-wash"> </i><br>
+  									<!-- 1. Rajinlah mencuci tangan dengan sabun atau pembersih tangan berbasis alkohol minimal 60%. <i class="fas fa-hands-wash"> </i><br>
   									2. Menjaga kebersihan barang yang sering kita sentuh. <i class="fas fa-soap"></i><br>
   									3. Perkuat daya tahan tubuh. <i class="fas fa-shield-virus"></i><br>
-  									4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;masker bedah (medis) untuk pekerja medis. <i class="fas fa-head-side-mask"></i>
+										4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;masker bedah (medis) untuk pekerja medis. <i class="fas fa-head-side-mask"></i> -->
+  									<div class="row">
+  										<div class="col-sm-4 ml-0">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Rajin Mencuci Tangan dengan Sabun</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/do-cuci-tangan.webp" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+
+  										<div class="col-sm-4 ml-auto">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Gunakan Masker ketika Keluar rumah</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/do-masker.webp" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+  										<div class="col-sm-4 ml-auto">
+  											<div class="card card-danger ">
+  												<div class="card-header text-center ">
+  													<h3 class="card-title">Terapkan Pola Hidup Sehat</h3>
+  												</div>
+  												<div class="card-body m-auto">
+  													<img src="<?= base_url('assets') ?>/img/do-pola-hidup.webp" alt="" srcset="">
+  												</div>
+  											</div>
+  										</div>
+  										<!-- row -->
+  									</div>
   								</div>
   							</div>
   							<!-- Card Danger -->
