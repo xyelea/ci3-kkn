@@ -85,12 +85,12 @@
 										<p>Membuang Masker </p>
 									</a>
 								</li> -->
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a href="<?= base_url('data/panduan_ibu_hamil') ?>" class="nav-link">
 										<i class="fas fa-user-nurse nav-icon"></i>
 										<p>Ibu Hamil</p>
 									</a>
-								</li>
+								</li> -->
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_gejala') ?>" class="nav-link">
@@ -99,12 +99,12 @@
 									</a>
 								</li>
 
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a href="<?= base_url('data/panduan_etika') ?>" class="nav-link">
 										<i class="fas fa-head-side-cough nav-icon"></i>
 										<p>Etika Batuk dan Bersin</p>
 									</a>
-								</li>
+								</li> -->
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_new_normal') ?>" class="nav-link">
