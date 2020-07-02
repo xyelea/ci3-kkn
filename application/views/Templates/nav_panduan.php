@@ -79,12 +79,12 @@
 										<p>Masker</p>
 									</a>
 								</li>
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a href="<?= base_url('data/panduan_membuang_masker') ?>" class="nav-link">
 										<i class="fas fa-virus-slash nav-icon"></i>
 										<p>Membuang Masker </p>
 									</a>
-								</li>
+								</li> -->
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_ibu_hamil') ?>" class="nav-link">
 										<i class="fas fa-user-nurse nav-icon"></i>

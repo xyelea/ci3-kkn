@@ -17,7 +17,7 @@
   		<div class="container-fluid">
   			<div class="card card-danger">
   				<div class="card-header">
-  					<h3 class="card-title"><i class="fas fa-head-side-cough-slash"></i> Asimptomatik </h3>
+  					<h3 class="card-title"><i class="fas fa-head-side-mask"></i> Panduan Menggunakan dan membuang masker </h3>
   				</div>
   				<!-- /.card-header -->
   				<div class="card-body">
