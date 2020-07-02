@@ -15,7 +15,7 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
-  			<div class="card card-danger">
+  			<div class="card card-danger elevation-5">
   				<div class="card-header">
   					<h3 class="card-title"><i class="fas fa-user-nurse"></i> Panduan Bagi ibu Hamil dan Menyusui </h3>
   				</div>

@@ -15,7 +15,7 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
-  			<div class="card card-danger text-justify">
+  			<div class="card card-danger text-justify elevation-5">
   				<div class="card-header">
   					<h3 class="card-title"><i class="fas fa-shield-virus"></i> PSBB </h3>
   				</div>

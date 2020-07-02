@@ -15,7 +15,7 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
-  			<div class="card card-danger">
+  			<div class="card card-danger elevation-5">
   				<div class="card-header">
   					<h3 class="card-title"><i class="fas fa-virus"></i> Covid-19 </h3>
   				</div>

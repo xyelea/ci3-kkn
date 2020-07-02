@@ -15,14 +15,14 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
-  			<div class="card card-danger">
+  			<div class="card card-danger elevation-5">
   				<div class="card-header">
   					<h3 class="card-title"><i class="fas fa-head-side-virus"></i> Panduan Bagi Masyarakat yang mengalami Gejala </h3>
   				</div>
   				<!-- /.card-header -->
   				<div class="card-body">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					Beberapa orang yang terinfeksi tidak menunjukkan gejala sama sekali. Ini yang disebut sebagai <strong> asimptomatik</strong>. Sampai saat ini bukti ilmiah menunjukkan bahwa risiko penularan dari pasien COVID-19 yang <strong> asimptomatik</strong> sangat <strong> kecil </strong>.
+  					Tetap di Rumah jika anda Kurang sehat atau jika anda mengalami gejala Covid-19 Hubungi Call Center <a href="https://covid19.go.id/daftar-rumah-sakit-rujukan" target="_blank"> Rumah sakit rujukan</a> di lokasi anda dan ikuti arahan dari lembaga kesehatan di wilayah anda.
   					<!-- Accordion tutup -->
   				</div>
 

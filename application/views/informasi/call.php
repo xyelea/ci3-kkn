@@ -15,14 +15,14 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid">
-  			<div class="card card-danger">
+  			<div class="card card-danger elevation-5">
   				<div class="card-header">
   					<h3 class="card-title"><i class="fas fa-phone-alt"></i> Call Center </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body ">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					<div class="card card-danger">
+  					<div class="card card-danger ">
   						<div class="card-header">
   							<h4 class="card-title">
   								<a href="https://covid19.go.id/daftar-rumah-sakit-rujukan" target="_blank"> <i class="fas fa-clinic-medical"></i> Rumah Sakit Rujukan
