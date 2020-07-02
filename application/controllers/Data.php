@@ -24,7 +24,7 @@ class Data extends CI_Controller
 			'indo' => json_decode($readAPI, true)
 		);
 
-		$this->load->view('Templates/header', $data);
+		$this->load->view('Templates/header_lte', $data);
 		$this->load->view('Ind/indo', $data);
 		$this->load->view('Templates/footer');
 	}
