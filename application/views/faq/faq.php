@@ -104,10 +104,10 @@
 
   							<div id="collapseTwo" class="panel-collapse collapse">
   								<!-- demam -->
-  								<div class="card-body">
+  								<div class="card-body ">
   									<div class="row">
   										<div class="col-sm-4 ml-0">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Demam</h3>
   												</div>
@@ -118,7 +118,7 @@
   										</div>
 
   										<div class="col-sm-4 ml-auto">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Batuk</h3>
   												</div>
@@ -128,7 +128,7 @@
   											</div>
   										</div>
   										<div class="col-sm-4 ml-auto">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Lelah</h3>
   												</div>
@@ -160,7 +160,7 @@
 										4. Gunakan masker kain jika harus beraktifitas ke luar rumah. Masker kain untuk kita masyarakat umum, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;masker bedah (medis) untuk pekerja medis. <i class="fas fa-head-side-mask"></i> -->
   									<div class="row">
   										<div class="col-sm-4 ml-0">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Rajin Mencuci Tangan dengan Sabun</h3>
   												</div>
@@ -171,7 +171,7 @@
   										</div>
 
   										<div class="col-sm-4 ml-auto">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Gunakan Masker ketika Keluar rumah</h3>
   												</div>
@@ -181,7 +181,7 @@
   											</div>
   										</div>
   										<div class="col-sm-4 ml-auto">
-  											<div class="card card-danger ">
+  											<div class="card card-danger elevation-5">
   												<div class="card-header text-center ">
   													<h3 class="card-title">Terapkan Pola Hidup Sehat</h3>
   												</div>
