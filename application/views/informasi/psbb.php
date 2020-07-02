@@ -20,7 +20,7 @@
   					<h3 class="card-title"><i class="fas fa-shield-virus"></i> PSBB </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body text-justify">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
   					Berdasarkan <strong> PP Nomor 21 Tahun 2020 Pasal 1</strong>, dijelaskan bahwa Pembatasan Sosial Berskala Besar merupakan pembatasan kegiatan tertentu dalam suatu wilayah yang diduga terinfeksi Coronavirus Disease 2019 (Covid-19).
 

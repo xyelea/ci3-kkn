@@ -20,9 +20,11 @@
   					<h3 class="card-title"><i class="fas fa-shield-virus"></i> Adaptasi Kebiasaan Baru </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body text-justify">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					Beberapa orang yang terinfeksi tidak menunjukkan gejala sama sekali. Ini yang disebut sebagai <strong> asimptomatik</strong>. Sampai saat ini bukti ilmiah menunjukkan bahwa risiko penularan dari pasien COVID-19 yang <strong> asimptomatik</strong> sangat <strong> kecil </strong>.
+  					<strong> Adaptasi kebiasaan Baru </strong> adalah upaya pembiasaan agar masyarakat tetap dapat beraktifitas walaupun sedang dalam keadaan pandemi COVID-19.
+
+  					Klik <a href="http://promkes.kemkes.go.id/materi-adaptasi-kebiasaan-baru"> Disini </a> untuk melihat panduan Spesifik Adaptasi Kebiasaan Baru (New Normal)
   					<!-- Accordion tutup -->
   				</div>
 

@@ -20,7 +20,7 @@
   					<h3 class="card-title"><i class="fas fa-virus"></i> Covid-19 </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body text-justify">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
   					Penyakit <strong> Coronavirus 2019 </strong>adalah penyakit menular yang disebabkan oleh <strong> SARS-CoV-2</strong>, salah satu jenis Coronavirus. Penyakit ini mengakibatkan pandemi Coronavirus 2019–2020. Penderita COVID-19 dapat mengalami <strong> demam, batuk kering, dan kesulitan bernapas </strong>. <strong> Sakit tenggorokan, pilek, atau bersin-bersin</strong> lebih jarang ditemukan. Pada penderita yang paling rentan, penyakit ini dapat berujung pada <strong> pneumonia </strong>dan <strong> kegagalan multiorgan </strong> serta menyebabkan <strong> kematian</strong>.
   					<!-- Accordion tutup -->

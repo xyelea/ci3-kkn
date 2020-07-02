@@ -20,9 +20,10 @@
   					<h3 class="card-title"><i class="fas fa-head-side-virus"></i> Panduan Bagi Masyarakat yang mengalami Gejala </h3>
   				</div>
   				<!-- /.card-header -->
-  				<div class="card-body">
+  				<div class="card-body text-justify">
   					<!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
-  					Tetap di Rumah jika anda Kurang sehat atau jika anda mengalami gejala Covid-19 Hubungi Call Center <a href="https://covid19.go.id/daftar-rumah-sakit-rujukan" target="_blank"> Rumah sakit rujukan</a> di lokasi anda dan ikuti arahan dari lembaga kesehatan di wilayah anda.
+  					Tetap di Rumah jika anda Kurang sehat atau jika anda mengalami gejala Covid-19 Hubungi Call Center <a href="https://covid19.go.id/daftar-rumah-sakit-rujukan" target="_blank"> Rumah sakit rujukan</a> atau di lokasi anda dan ikuti arahan dari lembaga kesehatan di wilayah anda .
+  					Selalu Cari informasi di <a href="<?= base_url('data/informasi_geografis') ?>"> Website Resmi Covid-19 </a> untuk menghindari Hoax.
   					<div class="row">
   						<div class="col-sm-6 ml-auto mt-3">
   							<div class="card card-danger elevation-5">

@@ -62,9 +62,8 @@
   						</div>
   					</div>
 
-  					<!-- row -->
+  					<!-- /.card-body -->
   				</div>
-
   			</div><!-- /.container-fluid -->
   		</div>
   	</div>
