@@ -26,7 +26,7 @@ class Data extends CI_Controller
 
 		$this->load->view('Templates/header_lte', $data);
 		$this->load->view('Ind/indo', $data);
-		$this->load->view('Templates/footer');
+		$this->load->view('Templates/footer_lte');
 	}
 
 	public function provinsi()
