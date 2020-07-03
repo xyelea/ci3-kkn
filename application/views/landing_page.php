@@ -41,7 +41,9 @@
 					<!-- <li><a href="<?= base_url(''); ?>">Beranda</a></li> -->
 					<li><a href="<?= base_url('data/informasi'); ?>"> Pusat Informasi</a></li>
 					<li><a href="<?= base_url('data/panduan'); ?>"> Panduan</a></li>
-					<li class="btn"><a href="<?= base_url('data/indonesia'); ?>" style="color: #035755;"> Data Persebaran <i class="fas fa-globe-asia"></i></a></li>
+					<a href="<?= base_url('data/indonesia'); ?>" style="color: #035755;">
+						<li class="btn"> Data Persebaran <i class="fas fa-globe-asia"></i>
+					</a></li>
 				</ul>
 			</div>
 			<div class="mobile-nav">

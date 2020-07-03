@@ -15,7 +15,7 @@
   	<!-- Main content -->
   	<div class="content">
   		<div class="container-fluid text-justify">
-  			<div class="card card-danger">
+  			<div class="card card-danger elevation-3">
   				<div class="card-header">
   					<h3 class="card-title">Pertanyaan yang sering di ajukan</h3>
   				</div>

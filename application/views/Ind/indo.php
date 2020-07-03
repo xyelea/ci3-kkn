@@ -5,8 +5,8 @@
 		<nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
 			<div class="container">
 				<a href="<?= base_url(''); ?>" class="navbar-brand">
-					<img src="<?= base_url('assets'); ?>/img/2.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: 1">
-					<span class="brand-text font-weight-light"><?= $title . $data;	 ?></span>
+					<img src="<?= base_url('assets'); ?>/img/2.png" alt=" Logo" class="brand-image ">
+					<span class="brand-text font-weight-bold popi"><?= $title . $data;	 ?></span>
 				</a>
 
 				<button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,14 +16,15 @@
 				<div class="collapse navbar-collapse order-3" id="navbarCollapse">
 
 					<!-- Navbar Kanan -->
-					<ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+					<ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto ">
 						<!-- Messages Dropdown Menu -->
-						<ul class="navbar-nav ">
+						<ul class="navbar-nav  ">
 							<li class="nav-item">
-								<a href="<?= base_url('data/informasi'); ?>" class="nav-link">Pusat Informasi</a>
+								<a href="<?= base_url('data/informasi'); ?>" class="nav-link">
+									<span class="popi font-weight-bold"> Pusat Informasi</span></a>
 							</li>
 							<li class="nav-item">
-								<a href="<?= base_url('data/panduan'); ?>" class="nav-link">Panduan</a>
+								<a href="<?= base_url('data/panduan'); ?>" class="nav-link"><span class="popi font-weight-bold"> Panduan</span></a>
 							</li>
 						</ul>
 

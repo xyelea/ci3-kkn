@@ -2,7 +2,7 @@
 
 <body class="hold-transition">
 	<!-- Topbar -->
-	<div class="main-header navbar navbar-expand navbar-light navbar-white">
+	<div class="main-header navbar navbar-expand navbar-light navbar-white ">
 		<div class="container">
 			<a href="<?= base_url(''); ?>" class="navbar-brand">
 				<img src="<?= base_url('assets'); ?>/img/2.png" alt="CTI Logo" class="brand-link img-circle elevation-3" style="opacity: 1">

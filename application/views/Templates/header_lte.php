@@ -18,4 +18,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/style/dist/css/adminlte.min.css">
 	<!-- Google Font: Source Sans Pro -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<style>
+		.popi {
+			font-family: "poppins", Arial, Helvetica, sans-serif;
+			text-decoration: none;
+			color: #035755;
+		}
+
+		.popi:hover {
+			color: #fb4c47;
+			backface-visibility: hidden;
+			font-weight: bold;
+			position: relative;
+		}
+
+		.popi:hover::after {
+			content: "";
+			width: 8px;
+			height: 8px;
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			border-radius: 50%;
+			background-color: #fb4c47;
+			transition: 0.5s ease;
+		}
+	</style>
 </head>
