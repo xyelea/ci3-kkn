@@ -17,7 +17,7 @@
   		<div class="container-fluid">
   			<div class="card card-danger elevation-5">
   				<div class="card-header">
-  					<h3 class="card-title"><i class="fas fa-globe"></i> Peta Persebaran COVID-19 di Indonesia </h3>
+  					<h3 class="card-title"><i class="fas fa-globe"></i> Peta Jumlah Tenaga Medis per 100,000 Penduduk Di Indonesia </h3>
   				</div>
   				<!-- /.card-header -->
   				<div class="card-body">
