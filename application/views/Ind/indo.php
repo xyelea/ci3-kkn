@@ -34,16 +34,18 @@
 		<!-- /.navbar -->
 
 		<!-- Content Wrapper. Contains page content -->
-		<div class="content-wrapper">
-			<div class="content">
+
+		<div class="content">
+			<!-- <div class="jumbotron jumbotron-fluid bg-danger">
 				<div class="container">
-					<div class="jumbotron jumbotron-fluid bg-danger">
-
-					</div>
+					<h1 class="display-1">Awas Bahaya Covid-19 <i class="fas fa-viruses"></i> !</h1>
+					<p class="lead">Jaga Jarak Sosial Dan Cuci Tangan Setelah keluar Rumah.</p>
+					<img src="<?= base_url() ?>assets/img/4.svg" alt="" srcset="">
 				</div>
-			</div>
+			</div> -->
+		</div>
 
-		</div><!-- /.container-fluid -->
+		<!-- /.container-fluid -->
 	</div>
 	<!-- /.content -->
 
