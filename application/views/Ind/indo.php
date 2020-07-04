@@ -1,8 +1,8 @@
-<body class="hold-transition layout-top-nav">
+<body class=" hold-transition layout-top-nav">
 	<div class="wrapper">
 
 		<!-- Navbar -->
-		<nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+		<nav class="main-header navbar navbar-expand-md navbar-light navbar-white fixed-top">
 			<div class="container">
 				<a href="<?= base_url(''); ?>" class="navbar-brand">
 					<img src="<?= base_url('assets'); ?>/img/2.png" alt=" Logo" class="brand-image ">
@@ -31,22 +31,19 @@
 					</ul>
 				</div>
 		</nav>
-		<!-- /.navbar -->
-
-		<!-- Content Wrapper. Contains page content -->
-
-		<div class="content">
-			<!-- <div class="jumbotron jumbotron-fluid bg-danger">
-				<div class="container">
-					<h1 class="display-1">Awas Bahaya Covid-19 <i class="fas fa-viruses"></i> !</h1>
-					<p class="lead">Jaga Jarak Sosial Dan Cuci Tangan Setelah keluar Rumah.</p>
-					<img src="<?= base_url() ?>assets/img/4.svg" alt="" srcset="">
+		<div class="jumbotron jumbotron-fluid bg-danger">
+			<div class="container container-fluid">
+				<div class="d-lg-flex align-items-center justify-content-between pl-lg-5">
+					<h1 class="display-4">Awas Covid-19 <i class="fas fa-viruses"></i></h1>
+					<p class="lead">Hindari Kontak Fisik dan Gunakan Masker Saat keluar Rumah</p>
+					<img src="<?= base_url('assets'); ?>/img/1.svg" alt="" srcset="">
 				</div>
-			</div> -->
+
+			</div>
 		</div>
-
+		<div class="container-fluid mt-5 px-5"></div>
 		<!-- /.container-fluid -->
-	</div>
-	<!-- /.content -->
 
-	<!-- /.content-wrapper -->
+		<!-- /.content -->
+
+		<!-- /.content-wrapper -->

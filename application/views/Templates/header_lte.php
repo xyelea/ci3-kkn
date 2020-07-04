@@ -44,5 +44,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 			background-color: #fb4c47;
 			transition: 0.5s ease;
 		}
+
+		.carousel-item img {
+			max-height: 600px;
+		}
 	</style>
 </head>
