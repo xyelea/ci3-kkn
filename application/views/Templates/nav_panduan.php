@@ -6,19 +6,19 @@
 			<!-- Left navbar links -->
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" data-widget="pushmenu" href="<?= base_url('data/panduan') ?>" role="button"><i class="fas fa-bars"></i></a>
+					<a class="nav-link" data-widget="pushmenu" href="<?= base_url('data/panduan') ?>" role="button"><span class="popi"> <i class="fas fa-bars"></i></span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data') ?>" class="nav-link">Beranda</a>
+					<a href="<?= base_url('data') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/informasi') ?>" class="nav-link">Pusat Informasi</a>
+					<a href="<?= base_url('data/informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/panduan') ?>" class="nav-link">Panduan</a>
+					<a href="<?= base_url('data/panduan') ?>" class="nav-link"><span class="popi"> Panduan</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/indonesia') ?>" class="nav-link">Data Persebaran</a>
+					<a href="<?= base_url('data/indonesia') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
 				</li>
 			</ul>
 
@@ -42,8 +42,8 @@
 			<!-- Brand Logo -->
 			<a href="<?= base_url('data') ?>" class="brand-link">
 				<img src="<?= base_url('assets') ?>/img/2.png" alt="Covid Tracker Logo" class="brand-image img-circle elevation-3" style="opacity: .7">
-				<span class="brand-text font-weight-light ">
-					<h3 class="text-center">Covid Tracker</h3>
+				<span class="brand-text font-weight-light popi">
+					<h4 class="text-center">Covid Tracker</h4>
 				</span>
 			</a>
 

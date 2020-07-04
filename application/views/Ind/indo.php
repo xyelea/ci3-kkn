@@ -37,10 +37,14 @@
 		<div class="content-wrapper">
 			<div class="content">
 				<div class="container">
+					<div class="jumbotron jumbotron-fluid bg-danger">
 
-
-				</div><!-- /.container-fluid -->
+					</div>
+				</div>
 			</div>
-			<!-- /.content -->
-		</div>
-		<!-- /.content-wrapper -->
+
+		</div><!-- /.container-fluid -->
+	</div>
+	<!-- /.content -->
+
+	<!-- /.content-wrapper -->

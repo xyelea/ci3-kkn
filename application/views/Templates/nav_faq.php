@@ -43,7 +43,7 @@
 			<a href="<?= base_url('data') ?>" class="brand-link mt-0">
 				<img src="<?= base_url('assets') ?>/img/2.png" alt="Covid Tracker Logo" class="brand-image ">
 				<span class="brand-text popi">
-					<h5 class="text-center mb-0">Covid Tracker</h5>
+					<h4 class="text-center mb-0">Covid Tracker</h4>
 				</span>
 			</a>
 
