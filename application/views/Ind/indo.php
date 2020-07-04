@@ -31,17 +31,28 @@
 					</ul>
 				</div>
 		</nav>
+		<!-- Jumbotron -->
 		<div class="jumbotron jumbotron-fluid bg-danger">
 			<div class="container container-fluid">
 				<div class="d-lg-flex align-items-center justify-content-between pl-lg-5">
-					<h1 class="display-4">Awas Covid-19 <i class="fas fa-viruses"></i></h1>
-					<p class="lead">Hindari Kontak Fisik dan Gunakan Masker Saat keluar Rumah</p>
-					<img src="<?= base_url('assets'); ?>/img/1.svg" alt="" srcset="">
-				</div>
+					<h1 class="display-5 ml-0"><br>Awas Covid-19 <i class="fas fa-viruses"></i></h1>
+					<h3 class="font-weight-light mb-4 ml-1">Hindari Kontak Fisik dan Gunakan Masker Saat keluar Rumah</h3><img src="<?= base_url('assets'); ?>/img/1.svg" alt="" srcset="">
+					<div class="">
 
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="container-fluid mt-5 px-5"></div>
+		<div class="container-fluid mt-5 px-5">
+			<div class="row">
+				<div class="col-md-12 text-gray-800">
+					<div class="txt1 text-center text-uppercase font-weight-bolder">
+						<h1>DATA PERSEBARAN COVID-19 <?= $data; ?></h1>
+					</div>
+					<div class="txt2 text-center text-uppercase font-weight-bolder">*Data Bersumber dari Jhon Hopkins University,&nbsp; Akan ada Perbedaan Antar data Akibat Jadwal Update API yang berbeda.</div>
+				</div>
+			</div>
+		</div>
 		<!-- /.container-fluid -->
 
 		<!-- /.content -->
