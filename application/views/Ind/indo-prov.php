@@ -1,7 +1,6 @@
 <br>
 <div class="container-fluid mt-5">
 
-
 	<div class="card elevation-3">
 		<div class="card-header bg-danger">
 			<div class="d-sm-flex align-items-center justify-content-between">
