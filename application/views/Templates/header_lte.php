@@ -44,5 +44,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 			background-color: #fb4c47;
 			transition: 0.5s ease;
 		}
+
+		.jumbotron img {
+			max-height: 350px;
+		}
 	</style>
 </head>

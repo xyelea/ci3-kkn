@@ -21,13 +21,11 @@ class Data extends CI_Controller
 		$data = array(
 			'title' => 'Covid Tracker |',
 			'data' => ' Indonesia',
+			'isi' => 'Ind/indo',
 			'indo' => json_decode($readAPI, true)
 		);
 
-		$this->load->view('Templates/header_lte', $data);
-
-		$this->load->view('Ind/indo', $data);
-		$this->load->view('Templates/footer_lte_data');
+		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
 
 	public function provinsi()
