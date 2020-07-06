@@ -66,11 +66,11 @@
 	<div class="card elevation-3">
 		<div class="card-header bg-danger">
 			<h3 class="card-title">
-				<?= $title . $data;	 ?>
+				<?= $tb . $data;	 ?>
 			</h3>
 		</div>
 		<div class="card-body">
-			<table class="table table-bordered table-striped">
+			<table class="table table-bordered table-striped table-hover">
 				<thead>
 					<tr class="text-center">
 						<th>No</th>
