@@ -7,7 +7,7 @@
 				<h3 class="card-title">
 					<?= $tb . $data;	 ?>
 				</h3>
-				<h6 class="mb-0 text-gray-800"><?= date('l, d M Y') ?></h6>
+				<h6 class="mb-0 text-gray-800"><?= tanggal('l, d M Y') ?></h6>
 			</div>
 		</div>
 		<div class="card-body">
