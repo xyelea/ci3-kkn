@@ -52,12 +52,10 @@ class Data extends CI_Controller
 		$data = array(
 			'world' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
-			'data' => ' Dunia'
+			'data' => ' Dunia',
+			'isi' => 'Ind/dunia'
 		);
-
-		$this->load->view('Templates/header', $data);
-		$this->load->view('Ind/dunia', $data);
-		$this->load->view('Templates/footer');
+		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
 
 	public function negara()

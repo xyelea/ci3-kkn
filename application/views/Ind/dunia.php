@@ -2,9 +2,8 @@
 <div class="jumbotron jumbotron-fluid bg-danger">
 	<div class="container container-fluid">
 		<div class="d-lg-flex align-items-center justify-content-between pl-lg-5 ">
-			<h1 class="display"><br> Awas Covid-19 <i class="fas fa-viruses"></i></h1>
 			<h3 class="font-weight-light mb-4 ml-1">Cucilah Tangan anda Sehabis Keluar Rumah</h3>
-			<img src="<?= base_url('assets'); ?>/img/1.svg" alt="" srcset="" class="display-4">
+			<img src="<?= base_url('assets'); ?>/img/5.svg" alt="" srcset="" class="">
 		</div>
 
 	</div>
@@ -24,15 +23,15 @@
 	<div class="col-sm-3 mt-3">
 		<h1 class=""><?= tanggal() ?></h1>
 	</div>
-	<div class="col-sm-3  ml-auto mt-3 btn-group">
-		<a href="<?= base_url('data/dunia') ?>">
-			<button type="button" class="btn btn-block btn-danger btn-lg mt-3"><i class="fas fa-globe-asia"></i> Indonesia</button>
+	<div class="col-sm-4 ml-auto mt-3 btn-group">
+		<a href="<?= base_url('data/indonesia') ?>">
+			<button type="button" class="btn btn-block btn-danger btn-lg mt-3"><i class="fas fa-globe-asia"></i> ID</button>
 		</a>&nbsp;
 		<a href="<?= base_url('data/peta') ?>">
-			<button type="button" class="btn btn-block btn-danger btn-lg mt-3"><i class="fas fa-map"></i> Peta Persebaran</button>
+			<button type="button" class="btn btn-block btn-danger  btn-lg mt-3"><i class="fas fa-map"></i> Peta Persebaran</button>
 		</a>&nbsp;
-		<a href="<?= base_url('data/provinsi') ?>">
-			<button type="button" class="btn btn-block btn-danger btn-lg mt-3"><i class="fas fa-table"></i> Provinsi</button>
+		<a href="<?= base_url('data/negara') ?>">
+			<button type="button" class="btn btn-block btn-danger btn-lg mt-3"><i class="fas fa-table"></i> Negara</button>
 		</a>
 	</div>
 </div>
@@ -46,7 +45,7 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
 						<div class="text font-weight-bold text-danger h5 mb-1">Total Kasus</div>
-						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($indo['cases']); ?></div>
+						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($world[0]['cases']); ?></div>
 					</div>
 					<div class="col-auto">
 						<!-- <i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i> -->
@@ -62,7 +61,7 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
 						<div class="text font-weight-bold text-info h5 mb-1">Hari ini</div>
-						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800">+ <?= number_format($indo['todayCases']); ?></div>
+						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800">+ <?= number_format($world[0]['todayCases']); ?></div>
 					</div>
 					<div class="col-auto">
 						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
@@ -82,7 +81,7 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
 						<div class="text font-weight-bold text-success h5 mb-1">Sembuh</div>
-						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($indo['recovered']); ?></div>
+						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($world[0]['recovered']); ?></div>
 					</div>
 					<div class="col-auto">
 						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
@@ -98,7 +97,7 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
 						<div class="text font-weight-bold text-warning h5 mb-1">Aktif</div>
-						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($indo['active']); ?></div>
+						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($world[0]['active']); ?></div>
 					</div>
 					<div class="col-auto">
 						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
@@ -113,8 +112,8 @@
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
-						<div class="text font-weight-bold text-secondary h5 mb-1">Meninggal <sup class="text font-weight-bold ml-1 text-danger"> +<?= number_format($indo['todayDeaths']); ?></sup></div>
-						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($indo['deaths']); ?></div>
+						<div class="text font-weight-bold text-secondary h5 mb-1">Meninggal <sup class="text font-weight-bold ml-1 text-danger"> +<?= number_format($world[0]['todayDeaths']); ?></sup></div>
+						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($world[0]['deaths']); ?></div>
 					</div>
 					<div class="col-auto">
 						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
