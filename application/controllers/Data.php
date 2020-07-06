@@ -62,21 +62,20 @@ class Data extends CI_Controller
 		$this->load->view('Templates/footer');
 	}
 
-	public function countries()
+	public function negara()
 	{
-		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
+		$API = 'https://api.kawalcorona.com/';
 		$readAPI = file_get_contents($API);
-		$data['count'] = json_decode($readAPI, true);
 
 		$data = array(
-			'count' => json_decode($readAPI, true),
-			'num' => count($data['count']),
+			'negara' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
+			'tb' => 'Tabel persebaran Covid-19 |',
+			'isi' => 'Ind/wrd-count',
 			'data' => ' Negara'
 		);
-		$this->load->view('Templates/header', $data);
-		$this->load->view('Ind/wrd-count', $data);
-		$this->load->view('Templates/footer');
+
+		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
 
 	// Route Faq
