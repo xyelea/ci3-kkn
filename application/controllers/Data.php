@@ -25,6 +25,7 @@ class Data extends CI_Controller
 		);
 
 		$this->load->view('Templates/header_lte', $data);
+
 		$this->load->view('Ind/indo', $data);
 		$this->load->view('Templates/footer_lte_data');
 	}
@@ -36,13 +37,12 @@ class Data extends CI_Controller
 
 		$data = array(
 			'provinsi' => json_decode($readAPI, true),
-			'title' => 'Covid Tracker |',
-			'data' => ' Provinsi'
+			'title' => 'Tabel Persebaran |',
+			'data' => ' Provinsi',
+			'isi' => 'Ind/indo-prov'
 		);
 
-		$this->load->view('Templates/header', $data);
-		$this->load->view('Ind/indo-prov', $data);
-		$this->load->view('Templates/footer');
+		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
 
 	public function dunia()
