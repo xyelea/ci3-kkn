@@ -9,7 +9,7 @@
 					<a class="nav-link" data-widget="pushmenu" href="<?= base_url('data/panduan') ?>" role="button"><span class="popi"> <i class="fas fa-bars"></i></span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
+					<a href="<?= base_url('') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
 					<a href="<?= base_url('data/informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
@@ -22,25 +22,13 @@
 				</li>
 			</ul>
 
-			<!-- SEARCH FORM -->
-			<!-- <form class="form-inline ml-3">
-				<div class="input-group input-group-sm">
-					<input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-					<div class="input-group-append">
-						<button class="btn btn-navbar" type="submit">
-							<i class="fas fa-search"></i>
-						</button>
-					</div>
-				</div>
-			</form> -->
-
 		</nav>
 		<!-- /.navbar -->
 
 		<!-- Main Sidebar Container -->
 		<aside class="main-sidebar sidebar-light-danger elevation-4">
 			<!-- Brand Logo -->
-			<a href="<?= base_url('data') ?>" class="brand-link">
+			<a href="<?= base_url('') ?>" class="brand-link">
 				<img src="<?= base_url('assets') ?>/img/2.png" alt="Covid Tracker Logo" class="brand-image img-circle elevation-3" style="opacity: .7">
 				<span class="brand-text font-weight-light popi">
 					<h4 class="text-center">Covid Tracker</h4>
@@ -49,21 +37,11 @@
 
 			<!-- Sidebar -->
 			<div class="sidebar">
-				<!-- Sidebar user panel (optional) -->
-				<!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-
-					<div class="info">
-						<a href="<?= base_url('data/panduan') ?>" class="d-block ml-5">
-							<i class="brand-image fas fa-book-medical ml-2 elevation-3 img-circle"></i> Panduan
-						</a>
-					</div>
-				</div> -->
 
 				<!-- Sidebar Menu -->
 				<nav class="mt-2">
 					<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-						<!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+
 						<li class="nav-item has-treeview menu-open">
 							<a href="<?= base_url('data/panduan') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
@@ -79,18 +57,6 @@
 										<p>Masker</p>
 									</a>
 								</li>
-								<!-- <li class="nav-item">
-									<a href="<?= base_url('data/panduan_membuang_masker') ?>" class="nav-link">
-										<i class="fas fa-virus-slash nav-icon"></i>
-										<p>Membuang Masker </p>
-									</a>
-								</li> -->
-								<!-- <li class="nav-item">
-									<a href="<?= base_url('data/panduan_ibu_hamil') ?>" class="nav-link">
-										<i class="fas fa-user-nurse nav-icon"></i>
-										<p>Ibu Hamil</p>
-									</a>
-								</li> -->
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_gejala') ?>" class="nav-link">
@@ -98,13 +64,6 @@
 										<p>Jika Mengalami Gejala</p>
 									</a>
 								</li>
-
-								<!-- <li class="nav-item">
-									<a href="<?= base_url('data/panduan_etika') ?>" class="nav-link">
-										<i class="fas fa-head-side-cough nav-icon"></i>
-										<p>Etika Batuk dan Bersin</p>
-									</a>
-								</li> -->
 
 								<li class="nav-item">
 									<a href="<?= base_url('data/panduan_new_normal') ?>" class="nav-link">

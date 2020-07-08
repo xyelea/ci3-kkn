@@ -9,7 +9,7 @@
 					<a class="nav-link" data-widget="pushmenu" href="<?= base_url('data') ?>" role="button"><span class="popi"><i class="fas fa-bars"></i></span> </a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
+					<a href="<?= base_url('') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
 					<a href="<?= base_url('data/informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
@@ -40,7 +40,7 @@
 		<!-- Main Sidebar Container -->
 		<aside class="main-sidebar sidebar-light-danger elevation-4">
 			<!-- Brand Logo -->
-			<a href="<?= base_url('data') ?>" class="brand-link">
+			<a href="<?= base_url('') ?>" class="brand-link">
 				<img src="<?= base_url('assets') ?>/img/2.png" alt="Covid Tracker Logo" class="brand-image img-circle elevation-3" style="opacity: .7">
 				<span class="brand-text popi ">
 					<h4 class="text-center">Covid Tracker</h4>
