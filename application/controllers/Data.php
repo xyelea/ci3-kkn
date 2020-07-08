@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Data extends CI_Controller
 {
-
+	// default
 	function index()
 	{
 		$data = array(
@@ -12,7 +12,21 @@ class Data extends CI_Controller
 		);
 		$this->load->view('landing_page', $data);
 	}
+	// Data persebaran Dunia
+	public function dunia()
+	{
+		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
+		$readAPI = file_get_contents($API);
 
+		$data = array(
+			'world' => json_decode($readAPI, true),
+			'title' => 'Covid Tracker |',
+			'data' => ' Dunia',
+			'isi' => 'Ind/dunia'
+		);
+		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
+	}
+	// Data Persebaran Indonesia
 	public function indonesia()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia';
@@ -27,7 +41,7 @@ class Data extends CI_Controller
 
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
-
+	// Data Persebaran Provinsi
 	public function provinsi()
 	{
 		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
@@ -44,31 +58,21 @@ class Data extends CI_Controller
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
 	}
 
-	public function dunia()
-	{
-		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
-		$readAPI = file_get_contents($API);
-
-		$data = array(
-			'world' => json_decode($readAPI, true),
-			'title' => 'Covid Tracker |',
-			'data' => ' Dunia',
-			'isi' => 'Ind/dunia'
-		);
-		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
-	}
-
 	public function negara()
 	{
-		$API = 'https://api.kawalcorona.com/';
+		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
+		// $API = 'https://api.kawalcorona.com/'; Main API
 		$readAPI = file_get_contents($API);
+		// On klo heroku di pkai klo kawal off
+		//$data['count'] = json_decode($readAPI, true);
+		//$data['num'] = count($data['count']);
 
 		$data = array(
 			'negara' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
+			'data' => ' Negara',
 			'tb' => 'Tabel persebaran Covid-19 |',
 			'isi' => 'Ind/wrd-count',
-			'data' => ' Negara'
 		);
 
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);

@@ -15,25 +15,29 @@
 				<thead>
 					<tr class="text-center">
 						<th>No</th>
-						<th>Provinsi</th>
+						<th>Negara</th>
 						<th>Positif</th>
 						<th>Sembuh</th>
 						<th>Meninggal</th>
+						<th>Total Tes</th>
 					</tr>
 				</thead>
 				<?php
 				$i = 1;
 				foreach ($negara as $n) :
 				?>
+
 					<tbody>
 						<tr>
 							<td class="text-center"><?= $i; ?></td>
-							<td><?= $n['attributes']['Country_Region']; ?></td>
-							<td class="text-center"><?= number_format($n['attributes']['Confirmed']); ?></td>
-							<td class="text-center"><?= number_format($n['attributes']['Recovered']); ?></td>
-							<td class="text-center"><?= number_format($n['attributes']['Deaths']); ?></td>
+							<td><?= $n['country']; ?></td>
+							<td class="text-center"><?= number_format($n['cases']); ?></td>
+							<td class="text-center"><?= number_format($n['recovered']); ?></td>
+							<td class="text-center"><?= number_format($n['deaths']); ?></td>
+							<td class="text-center"><?= number_format($n['totalTests']); ?></td>
 						</tr>
 					</tbody>
+
 				<?php $i++;
 				endforeach; ?>
 			</table>
