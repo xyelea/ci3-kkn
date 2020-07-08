@@ -63,16 +63,14 @@ class Data extends CI_Controller
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
 		// $API = 'https://api.kawalcorona.com/'; Main API
 		$readAPI = file_get_contents($API);
-		// On klo heroku di pkai klo kawal off
-		//$data['count'] = json_decode($readAPI, true);
-		//$data['num'] = count($data['count']);
 
 		$data = array(
 			'negara' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
 			'data' => ' Negara',
 			'tb' => 'Tabel persebaran Covid-19 |',
-			'isi' => 'Ind/wrd-count',
+			//'isi' => 'Ind/negarakawal',
+			'isi' => 'Ind/negarahero'
 		);
 
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
