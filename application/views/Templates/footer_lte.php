@@ -2,10 +2,12 @@
 <footer class="main-footer">
 	<!-- To the right -->
 	<div class="float-right d-none d-sm-inline">
-		Made With <i class="far fa-heart"></i> By Satria Efriyadi
+		<h1></h1> Made With <i class="far fa-heart"></i> By Satria Efriyadi
 	</div>
 	<!-- Default to the left -->
-	<strong>Copyright &copy; 2020 <a href=""></a>.</strong> All rights reserved.
+	<span class="sponsor">
+		<a href="https://www.dewaweb.com/">
+			<img src="<?= base_url('assets'); ?>/img/download.png" alt="" srcset=""></span></a><strong>Cloud Hosting Partner</strong>
 </footer>
 </div>
 <!-- ./wrapper -->

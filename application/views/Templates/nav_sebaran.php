@@ -28,7 +28,6 @@
 								<a href="<?= base_url('data/panduan'); ?>" class="nav-link"><span class="popi font-weight-bold"> Panduan</span></a>
 							</li>
 						</ul>
-
 					</ul>
 				</div>
 		</nav>

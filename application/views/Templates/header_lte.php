@@ -48,5 +48,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 		.jumbotron img {
 			max-height: 350px;
 		}
+
+		.sponsor img {
+			max-width: 120px;
+		}
 	</style>
 </head>
