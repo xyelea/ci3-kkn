@@ -16,7 +16,7 @@ class Data extends CI_Controller
 	public function dunia()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
-		$readAPI = file_get_contents($API);
+		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
 			'world' => json_decode($readAPI, true),
@@ -30,7 +30,7 @@ class Data extends CI_Controller
 	public function indonesia()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia';
-		$readAPI = file_get_contents($API);
+		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
 			'title' => 'Covid Tracker |',
@@ -46,23 +46,22 @@ class Data extends CI_Controller
 	{
 		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
 		$readAPI = file_get_contents($API);
+		$data['provinsi'] = json_decode($readAPI, true);
 
-		$data = array(
-			'provinsi' => json_decode($readAPI, true),
-			'title' => 'Covid Tracker |',
-			'data' => ' Provinsi',
-			'tb' => 'Tabel persebaran Covid-19 |',
-			'isi' => 'Ind/indo-prov'
-		);
+		$data['title'] = 'Covid Tracker | ';
+		$data['data'] = 'Tabel Provinsi';
 
+		$data['isi'] = 'Ind/indo-prov';
+		$data['tb'] = 'Covid Tracker';
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
+		// echo var_dump($data['provinsi']);
 	}
 
 	public function negara()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
 		// $API = 'https://api.kawalcorona.com/'; Main API
-		$readAPI = file_get_contents($API);
+		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
 			'negara' => json_decode($readAPI, true),
@@ -74,6 +73,7 @@ class Data extends CI_Controller
 		);
 
 		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
+		// echo var_dump($data['negara']);
 	}
 
 	// Route Faq
@@ -287,7 +287,7 @@ class Data extends CI_Controller
 	function testing()
 	{
 		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
-		$readAPI = file_get_contents($API);
+		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
 			'world' => json_decode($readAPI, true),

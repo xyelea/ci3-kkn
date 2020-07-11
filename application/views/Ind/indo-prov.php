@@ -21,10 +21,12 @@
 						<th>Meninggal</th>
 					</tr>
 				</thead>
+
 				<?php
 				$i = 1;
 				foreach ($provinsi as $p) :
 				?>
+
 					<tbody>
 						<tr>
 							<td class="text-center"><?= $i; ?></td>
@@ -34,6 +36,7 @@
 							<td class="text-center"><?= number_format($p['attributes']['Kasus_Meni']); ?></td>
 						</tr>
 					</tbody>
+
 				<?php $i++;
 				endforeach; ?>
 			</table>
