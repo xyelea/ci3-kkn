@@ -49,7 +49,7 @@ class Data extends CI_Controller
 		$data['provinsi'] = json_decode($readAPI, true);
 
 		$data['title'] = 'Covid Tracker | ';
-		$data['data'] = 'Tabel Provinsi';
+		$data['data'] = 'Provinsi';
 
 		$data['isi'] = 'Ind/indo-prov';
 		$data['tb'] = 'Covid Tracker';
