@@ -45,7 +45,7 @@ class Data extends CI_Controller
 	public function provinsi()
 	{
 		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
-		$readAPI = file_get_contents($API);
+		$readAPI = curl_get_file_contents($API);
 		$data['provinsi'] = json_decode($readAPI, true);
 
 		$data['title'] = 'Covid Tracker | ';
