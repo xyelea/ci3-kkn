@@ -44,17 +44,15 @@ class Data extends CI_Controller
 	// Data Persebaran Provinsi
 	public function provinsi()
 	{
-		$API = 'https://api.kawalcorona.com/indonesia/provinsi';
-		$readAPI = curl_get_file_contents($API);
-		$data['provinsi'] = json_decode($readAPI, true);
-
+		$bacaAPI = curl_get_file_contents('https://api.kawalcorona.com/indonesia/provinsi/');
+		$data['provinsi'] = json_decode($bacaAPI, true);
 		$data['title'] = 'Covid Tracker | ';
 		$data['data'] = 'Provinsi';
 
 		$data['isi'] = 'Ind/indo-prov';
 		$data['tb'] = 'Covid Tracker';
-		$this->load->view('Templates/wrapper_sebaran', $data, FALSE);
-		// echo var_dump($data['provinsi']);
+		$this->load->view('Templates/wrapper_sebaran', $data,  FALSE);
+		// echo var_dump($url);
 	}
 
 	public function negara()
