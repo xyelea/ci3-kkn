@@ -243,9 +243,33 @@ a.closebtn {
 	}
 }
 
+/* area baru */
+/* Responsif layout */
+
 @media screen and (max-width: 1200px) {
 	.nav-items ul li {
 		padding: 10px 0;
 		margin: 0 1rem;
+	}
+}
+@media screen and (max-width: 993px) {
+	.nav-items {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	img.illustration {
+		display: none;
+	}
+
+	.text {
+		width: 100%;
+		margin-left: 4%;
 	}
 }

@@ -291,9 +291,8 @@ class Data extends CI_Controller
 			'world' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
 			'isi' => 'beta',
-			'data' => ' Dunia'
+			'data' => ' Indonesia'
 		);
-
-		$this->load->view('Templates/wrapper_informasi', $data, FALSE);
+		$this->load->view('beta', $data, FALSE);
 	}
 }
