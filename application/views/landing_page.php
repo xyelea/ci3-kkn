@@ -14,7 +14,7 @@
   		<div class="container">
   			<div class="row">
   				<div class="col xl2 l2 m6 s5">
-  					<a href="#!">
+  					<a href="<?= base_url(); ?>">
   						<img src="<?= base_url('assets'); ?>/lp/img/3.png" style="width: 192px; height: 50px;">
   					</a>
   				</div>
