@@ -2,8 +2,8 @@
 <div class="jumbotron jumbotron-fluid bg-danger">
 	<div class="container container-fluid">
 		<div class="d-lg-flex align-items-center justify-content-between pl-lg-5 ">
-			<h3 class="font-weight-light mb-4 ml-1">Cucilah Tangan anda Sehabis Keluar Rumah</h3>
-			<img src="<?= base_url('assets'); ?>/img/5.svg" alt="" srcset="" class="">
+			<h1 class="font-weight-light mt-5">Cucilah Tangan anda Sehabis Keluar Rumah</h1>
+			<img src="<?= base_url('assets'); ?>/img/5.svg" alt="Gambar Orang mencuci tangan" srcset="" style="max-width: 100%;">
 		</div>
 
 	</div>
@@ -11,10 +11,10 @@
 
 <div class="row">
 	<div class="col-md-12 text-gray-800">
-		<div class="txt1 text-center text-uppercase font-weight-bolder">
+		<div class="text-center text-uppercase font-weight-bolder">
 			<h1>DATA PERSEBARAN COVID-19 <?= $data; ?></h1>
 		</div>
-		<div class="txt2 text-center text-uppercase font-weight-bolder">*Data Bersumber dari Jhon Hopkins University,&nbsp; Akan ada Perbedaan Antar data Akibat Jadwal Update API yang berbeda.</div>
+		<div class="text-center text-uppercase font-weight-bolder">*Data Bersumber dari Jhon Hopkins University,&nbsp; Akan ada Perbedaan Antar data Akibat Jadwal Update API yang berbeda.</div>
 	</div>
 </div>
 
@@ -76,7 +76,7 @@
 <div class="row">
 	<!-- Sembuh -->
 	<div class="col-xl-4 col-md-6 mb-4">
-		<div class="card border-left-success shadow-sm h-100 py-2 callout callout-success elevation-3">
+		<div class="card h-100 py-2 callout callout-success elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
@@ -92,7 +92,7 @@
 	</div>
 	<!-- Rawat -->
 	<div class="col-xl-3 col-md-6 mb-4">
-		<div class="card border-left-warning shadow-sm h-100 py-2 callout callout-warning elevation-3">
+		<div class="card h-100 py-2 callout callout-warning elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
@@ -108,7 +108,7 @@
 	</div>
 	<!-- Meninggal -->
 	<div class="col-xl-4 col-md-6 mb-4">
-		<div class="card border-left-secondary shadow-sm h-100 py-2 callout callout-info elevation-3">
+		<div class="card h-100 py-2 callout callout-info elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">

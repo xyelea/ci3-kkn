@@ -15,7 +15,7 @@ class Data extends CI_Controller
 	// Data persebaran Dunia
 	public function dunia()
 	{
-		$API = 'https://coronavirus-19-api.herokuapp.com/countries';
+		$API = 'https://coronavirus-19-api.herokuapp.com/countries/';
 		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
@@ -29,7 +29,7 @@ class Data extends CI_Controller
 	// Data Persebaran Indonesia
 	public function indonesia()
 	{
-		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia';
+		$API = 'https://coronavirus-19-api.herokuapp.com/countries/indonesia/';
 		$readAPI = curl_get_file_contents($API);
 
 		$data = array(
@@ -50,7 +50,7 @@ class Data extends CI_Controller
 		$data['data'] = 'Provinsi';
 
 		$data['isi'] = 'Ind/indo-prov';
-		$data['tb'] = 'Covid Tracker';
+		$data['tb'] = 'Persebaran Covid-19 |';
 		$this->load->view('Templates/wrapper_sebaran', $data,  FALSE);
 		// echo var_dump($url);
 	}
@@ -65,7 +65,7 @@ class Data extends CI_Controller
 			'negara' => json_decode($readAPI, true),
 			'title' => 'Covid Tracker |',
 			'data' => ' Negara',
-			'tb' => 'Tabel persebaran Covid-19 |',
+			'tb' => 'persebaran Covid-19 |',
 			//'isi' => 'Ind/negarakawal',
 			'isi' => 'Ind/negarahero'
 		);

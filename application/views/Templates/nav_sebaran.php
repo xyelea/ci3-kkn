@@ -22,10 +22,13 @@
 						<ul class="navbar-nav  ">
 							<li class="nav-item">
 								<a href="<?= base_url('data/informasi'); ?>" class="nav-link">
-									<span class="popi font-weight-bold"> Pusat Informasi</span></a>
+									<h5 class="popi font-weight-bold"> Pusat Informasi</h5>
+								</a>
 							</li>
 							<li class="nav-item">
-								<a href="<?= base_url('data/panduan'); ?>" class="nav-link"><span class="popi font-weight-bold"> Panduan</span></a>
+								<a href="<?= base_url('data/panduan'); ?>" class="nav-link">
+									<h5 class="popi font-weight-bold"> Panduan</h5>
+								</a>
 							</li>
 						</ul>
 					</ul>

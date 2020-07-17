@@ -1,20 +1,19 @@
 <!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid bg-danger">
+<div class="jumbotron bg-danger">
 	<div class="container container-fluid">
-		<div class="d-lg-flex  align-items-center pl-lg-5 ">
-			<h3 class="font-weight-light">Gunakanlah Masker Saat keluar Rumah</h3>
-			<img src="<?= base_url('assets'); ?>/img/1.svg" alt="" srcset="" class="">
+		<div class="d-lg-flex align-items-center pl-lg-5">
+			<h3 class="font-weight-light mt-5">Gunakanlah Masker Saat keluar Rumah</h3>
+			<img src="<?= base_url('assets'); ?>/img/1.svg" alt="Gambar Orang Menggunakan Masker Saat Keluar Rumah" srcset="" style="max-width: 100%;">
 		</div>
-
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-md-12 text-gray-800">
-		<div class="txt1 text-center text-uppercase font-weight-bolder">
+		<div class="text-center text-uppercase font-weight-bolder">
 			<h1>DATA PERSEBARAN COVID-19 <?= $data; ?></h1>
 		</div>
-		<div class="txt2 text-center text-uppercase font-weight-bolder">*Data Bersumber dari Jhon Hopkins University,&nbsp; Akan ada Perbedaan Antar data Akibat Jadwal Update API yang berbeda.</div>
+		<div class="text-center text-uppercase font-weight-bolder">*Data Bersumber dari Jhon Hopkins University,&nbsp; Akan ada Perbedaan Antar data Akibat Jadwal Update API yang berbeda.</div>
 	</div>
 </div>
 
@@ -64,7 +63,7 @@
 						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800">+ <?= number_format($indo['todayCases']); ?></div>
 					</div>
 					<div class="col-auto">
-						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
+						<i class="fas fa-calendar-plus fa-2x text-gray-400 mr-3"></i>
 					</div>
 				</div>
 			</div>
@@ -72,27 +71,24 @@
 	</div>
 </div>
 
-
 <div class="row">
 	<!-- Sembuh -->
 	<div class="col-xl-4 col-md-6 mb-4">
-		<div class="card border-left-success shadow-sm h-100 py-2 callout callout-success elevation-3">
+		<div class="card h-100 py-2 callout callout-success elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
-						<div class="text font-weight-bold text-success h5 mb-1">Sembuh</div>
+						<h5 class="text font-weight-bold text-success mb-1">Sembuh</h5>
 						<div class="h2 mb-0 mt-2 ml-2 font-weight-bold text-gray-800"><?= number_format($indo['recovered']); ?></div>
 					</div>
-					<div class="col-auto">
-						<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
-					</div>
+					<i class="fas fa-calendar fa-2x text-gray-400 mr-3"></i>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Rawat -->
 	<div class="col-xl-3 col-md-6 mb-4">
-		<div class="card border-left-warning shadow-sm h-100 py-2 callout callout-warning elevation-3">
+		<div class="card h-100 py-2 callout callout-warning elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
@@ -107,8 +103,8 @@
 		</div>
 	</div>
 	<!-- Meninggal -->
-	<div class="col-xl-4 col-md-6 mb-4">
-		<div class="card border-left-secondary shadow-sm h-100 py-2 callout callout-info elevation-3">
+	<div class="col-xl-4 col-md-5 mb-4">
+		<div class="card h-100 py-2 callout callout-info elevation-3">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
