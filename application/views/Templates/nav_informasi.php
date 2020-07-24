@@ -12,7 +12,7 @@
 					<a href="<?= base_url('') ?>" class="nav-link"><span class="popi"> Beranda</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
+					<a href="<?= base_url('informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
 					<a href="<?= base_url('data/panduan') ?>" class="nav-link"><span class="popi">Panduan</span> </a>
@@ -21,18 +21,6 @@
 					<a href="<?= base_url('data/indonesia') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
 				</li>
 			</ul>
-
-			<!-- SEARCH FORM -->
-			<!-- <form class="form-inline ml-3">
-				<div class="input-group input-group-sm">
-					<input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-					<div class="input-group-append">
-						<button class="btn btn-navbar" type="submit">
-							<i class="fas fa-search"></i>
-						</button>
-					</div>
-				</div>
-			</form> -->
 
 		</nav>
 		<!-- /.navbar -->
@@ -74,42 +62,42 @@
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi') ?>" class="nav-link">
+									<a href="<?= base_url('informasi') ?>" class="nav-link">
 										<i class="fas fa-virus nav-icon"></i>
 										<p>Covid-19</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_simptomatik') ?>" class="nav-link">
+									<a href="<?= base_url('informasi/simptomatik') ?>" class="nav-link">
 										<i class="fas fa-head-side-cough nav-icon"></i>
 										<p>Simptomatik</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_asimptomatik') ?>" class="nav-link">
+									<a href="<?= base_url('informasi/asimptomatik') ?>" class="nav-link">
 										<i class="fas fa-head-side-cough-slash nav-icon"></i>
 										<p>Asimptomatik</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_pasien') ?>" class="nav-link">
+									<a href="<?= base_url('informasi/pasien') ?>" class="nav-link">
 										<i class="fas fa-user-nurse nav-icon"></i>
 										<p>Pasien Dan Lainnya</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_psbb') ?>" class="nav-link">
+									<a href="<?= base_url('informasi/psbb') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
 										<p>PSBB</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/informasi_new_normal') ?>" class="nav-link">
+									<a href="<?= base_url('informasi/new_normal') ?>" class="nav-link">
 										<i class="fas fa-head-side-virus nav-icon"></i>
 										<p>AKB</p>
 									</a>
@@ -119,7 +107,7 @@
 
 
 						<li class="nav-item">
-							<a href="<?= base_url('data/informasi_call_center') ?>" class="nav-link">
+							<a href="<?= base_url('informasi/call_center') ?>" class="nav-link">
 								<i class="nav-icon fas fa-phone-alt"></i>
 								<p>
 									Call Center
@@ -128,7 +116,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="<?= base_url('data/informasi_infografis') ?>" class="nav-link">
+							<a href="<?= base_url('informasi/website_resmi') ?>" class="nav-link">
 								<i class="nav-icon fas fa-wifi"></i>
 								<p>
 									Website Resmi

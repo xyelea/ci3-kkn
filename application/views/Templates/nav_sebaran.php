@@ -21,7 +21,7 @@
 						<!-- Messages Dropdown Menu -->
 						<ul class="navbar-nav  ">
 							<li class="nav-item">
-								<a href="<?= base_url('data/informasi'); ?>" class="nav-link">
+								<a href="<?= base_url('informasi'); ?>" class="nav-link">
 									<h5 class="popi font-weight-bold"> Pusat Informasi</h5>
 								</a>
 							</li>

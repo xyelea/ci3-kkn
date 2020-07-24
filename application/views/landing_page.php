@@ -21,7 +21,7 @@
   				<div class="col xl10 l10 m6 s7">
   					<div class="mainmenu">
   						<ul>
-  							<li><a class="" href="<?= base_url('data/informasi'); ?>">Pusat Informasi</a></li>
+  							<li><a class="" href="<?= base_url('informasi'); ?>">Pusat Informasi</a></li>
   							<li><a class="" href="<?= base_url('data/panduan'); ?>">Panduan</a></li>
   							<li><a class="active" href="<?= base_url('data/indonesia'); ?>" class="butmenu">Data Persebaran</a></li>
   						</ul>
@@ -52,7 +52,7 @@
   					<p>
   						Belum ada Obat Spesifik untuk mencegah maupun mengobati corona virus disease (COVID-19).
   					</p>
-  					<a href="<?= base_url('data/faq'); ?>" class="filbtn">FAQ</a>
+  					<a href="<?= base_url('faq'); ?>" class="filbtn">FAQ</a>
   				</div>
   			</div>
   		</div>
