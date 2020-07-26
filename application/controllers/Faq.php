@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-class faq extends CI_Controller
+class Faq extends CI_Controller
 {
 	function index()
 	{

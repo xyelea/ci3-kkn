@@ -15,10 +15,10 @@
 					<a href="<?= base_url('informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi </span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/panduan') ?>" class="nav-link"><span class="popi"> Panduan </span></a>
+					<a href="<?= base_url('panduan') ?>" class="nav-link"><span class="popi"> Panduan </span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/indonesia') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
+					<a href="<?= base_url('persebaran') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
 				</li>
 			</ul>
 

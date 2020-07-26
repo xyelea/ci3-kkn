@@ -15,10 +15,10 @@
 					<a href="<?= base_url('informasi') ?>" class="nav-link"><span class="popi"> Pusat Informasi</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/panduan') ?>" class="nav-link"><span class="popi"> Panduan</span></a>
+					<a href="<?= base_url('panduan') ?>" class="nav-link"><span class="popi"> Panduan</span></a>
 				</li>
 				<li class="nav-item d-none d-sm-inline-block">
-					<a href="<?= base_url('data/indonesia') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
+					<a href="<?= base_url('persebaran') ?>" class="nav-link"><span class="popi"> Data Persebaran</span></a>
 				</li>
 			</ul>
 
@@ -43,7 +43,7 @@
 					<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
 						<li class="nav-item has-treeview menu-open">
-							<a href="<?= base_url('data/panduan') ?>" class="nav-link active">
+							<a href="<?= base_url('panduan') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-viruses"></i>
 								<p>
 									Daftar panduan
@@ -52,21 +52,21 @@
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan_masker') ?>" class="nav-link">
+									<a href="<?= base_url('masker') ?>" class="nav-link">
 										<i class="fas fa-head-side-mask nav-icon"></i>
 										<p>Masker</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan_gejala') ?>" class="nav-link">
+									<a href="<?= base_url('gejala') ?>" class="nav-link">
 										<i class="fas fa-head-side-virus nav-icon"></i>
 										<p>Jika Mengalami Gejala</p>
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a href="<?= base_url('data/panduan_new_normal') ?>" class="nav-link">
+									<a href="<?= base_url('new_normal') ?>" class="nav-link">
 										<i class="fas fa-shield-virus nav-icon"></i>
 										<p>Adaptasi Kebiasaan Baru</p>
 									</a>

@@ -26,7 +26,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="<?= base_url('data/panduan'); ?>" class="nav-link">
+								<a href="<?= base_url('panduan'); ?>" class="nav-link">
 									<h5 class="popi font-weight-bold"> Panduan</h5>
 								</a>
 							</li>

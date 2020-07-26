@@ -22,7 +22,7 @@
   					<div class="mainmenu">
   						<ul>
   							<li><a class="" href="<?= base_url('informasi'); ?>">Pusat Informasi</a></li>
-  							<li><a class="" href="<?= base_url('data/panduan'); ?>">Panduan</a></li>
+  							<li><a class="" href="<?= base_url('panduan'); ?>">Panduan</a></li>
   							<li><a class="active" href="<?= base_url('data/indonesia'); ?>" class="butmenu">Data Persebaran</a></li>
   						</ul>
   					</div>
